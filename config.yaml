@@ -1,0 +1,26 @@
+server_name: "Bitterroot" # 服务器名称
+port: 6969 # 端口号
+mission: "empty.Bitterroot" # 地图任务
+client_mods: [
+    "@CF",
+    "@Bitterroot",
+    "@Code Lock",
+    "@Ear-Plugs",
+    "@Inventory Move Sounds",
+    "@SkyZ - Skybox Overhaul",
+    "@VPPAdminTools",
+    "@Vehicle3PP",
+    "@TerjePartyModTest",
+    "@RaG_Core",
+    "@RaG_BaseBuilding",
+    "@FlipTransport",
+    "@CoffeeDisableGardenplot",
+    "@PerspectiveDeploy",
+    "@Autorun Upgraded",
+    "@BoomLay's Things",
+    "@Boomlays Things Inventory Fix 1.27",
+    "@Name Restrictor",
+  ] # 客户端模组
+server_mods: [
+    
+] # 服务器模组

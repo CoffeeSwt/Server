@@ -1,0 +1,10 @@
+{
+    "DriverOnly": "true",
+    "Whitelist": [
+        "OffroadHatchback",
+        "Hatchback_02",
+        "CivilianSedan",
+        "Sedan_02",
+        "Truck_01_Covered"
+    ]
+}

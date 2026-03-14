@@ -1,0 +1,925 @@
+{
+    "Types": [
+        "ALL",
+        "BorderCrossing",
+        "Camp",
+        "City",
+        "CityCapital",
+        "Local",
+        "Marine",
+        "RockArea",
+        "Village"
+    ],
+    "Locations": [
+        {
+            "Type": "Village",
+            "Name": "Aurora",
+            "Position": [
+                4939.72021484375,
+                0.0,
+                5321.18994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Bagdad",
+            "Position": [
+                1671.93994140625,
+                0.0,
+                10001.2802734375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Baylor",
+            "Position": [
+                2947.110107421875,
+                0.0,
+                4168.2900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Bear Town",
+            "Position": [
+                11422.3798828125,
+                0.0,
+                10277.73046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Becker",
+            "Position": [
+                1716.81005859375,
+                0.0,
+                8576.75
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Beckham Heights",
+            "Position": [
+                11237.919921875,
+                0.0,
+                4865.41015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Benedict Castle",
+            "Position": [
+                3246.659912109375,
+                0.0,
+                7219.68994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Bennett",
+            "Position": [
+                6547.72021484375,
+                0.0,
+                5437.41015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Bishop Air Station",
+            "Position": [
+                7239.47998046875,
+                0.0,
+                9511.8798828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Bitterroot Country Club",
+            "Position": [
+                6390.39013671875,
+                0.0,
+                6375.85009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Bitterroot Ski Resort",
+            "Position": [
+                4444.93994140625,
+                0.0,
+                10884.2099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Bitterroot Speedway",
+            "Position": [
+                9690.7197265625,
+                0.0,
+                7230.8798828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Black Rock Barracks",
+            "Position": [
+                5613.47021484375,
+                0.0,
+                11693.8603515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Blairsville",
+            "Position": [
+                9711.3896484375,
+                0.0,
+                2417.14990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "City",
+            "Name": "Broken Arrow",
+            "Position": [
+                1541.68994140625,
+                0.0,
+                1749.8699951171876
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Buford",
+            "Position": [
+                4149.43994140625,
+                0.0,
+                10254.830078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Bliss",
+            "Position": [
+                646.9400024414063,
+                0.0,
+                8887.26953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Congregation",
+            "Position": [
+                858.530029296875,
+                0.0,
+                2505.179931640625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Horizons",
+            "Position": [
+                6103.5,
+                0.0,
+                10354.2900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Lookout",
+            "Position": [
+                2143.949951171875,
+                0.0,
+                10975.48046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Telluride",
+            "Position": [
+                4031.419921875,
+                0.0,
+                2350.22998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Virtue",
+            "Position": [
+                4136.83984375,
+                0.0,
+                5636.18017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Camp Wannastay",
+            "Position": [
+                10861.2802734375,
+                0.0,
+                3050.719970703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Centerville",
+            "Position": [
+                5118.419921875,
+                0.0,
+                6099.669921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Checkpoint West",
+            "Position": [
+                830.0800170898438,
+                0.0,
+                7588.81005859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Coleman",
+            "Position": [
+                9310.25,
+                0.0,
+                1500.81005859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Collins",
+            "Position": [
+                6774.9501953125,
+                0.0,
+                11370.5498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Colter City",
+            "Position": [
+                5234.56005859375,
+                0.0,
+                4116.68017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Comanche Mountain",
+            "Position": [
+                6717.3701171875,
+                0.0,
+                9795.7197265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Crow Mountain",
+            "Position": [
+                2985.050048828125,
+                0.0,
+                2645.080078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Crystal Lake",
+            "Position": [
+                7624.3798828125,
+                0.0,
+                4613.81005859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Darby",
+            "Position": [
+                10138.8798828125,
+                0.0,
+                4005.340087890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 1",
+            "Position": [
+                1478.5799560546876,
+                0.0,
+                9554.099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 2",
+            "Position": [
+                1900.030029296875,
+                0.0,
+                9233.33984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 3",
+            "Position": [
+                2864.090087890625,
+                0.0,
+                9873.1103515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 4",
+            "Position": [
+                2999.8798828125,
+                0.0,
+                10373.8603515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 5",
+            "Position": [
+                1210.5799560546876,
+                0.0,
+                11841.8896484375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Delta 6",
+            "Position": [
+                401.6600036621094,
+                0.0,
+                11688.0595703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Denton Ranch",
+            "Position": [
+                2874.030029296875,
+                0.0,
+                11420.9697265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Dixie Town",
+            "Position": [
+                2156.449951171875,
+                0.0,
+                12017.91015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Eagle Mountain",
+            "Position": [
+                11402.41015625,
+                0.0,
+                3849.909912109375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Fairfax",
+            "Position": [
+                7837.68994140625,
+                0.0,
+                4120.669921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Faith's Gate Compound",
+            "Position": [
+                2999.969970703125,
+                0.0,
+                5735.7998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Falcon Rock",
+            "Position": [
+                1067.81005859375,
+                0.0,
+                10380.3095703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Fishville",
+            "Position": [
+                2059.3798828125,
+                0.0,
+                776.4600219726563
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Fort Hale",
+            "Position": [
+                4866.1201171875,
+                0.0,
+                7818.2001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Fort Simmons",
+            "Position": [
+                11974.7001953125,
+                0.0,
+                8930.5400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Glasgow Air Force Base",
+            "Position": [
+                906.030029296875,
+                0.0,
+                3897.969970703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Hamilton",
+            "Position": [
+                4200.8701171875,
+                0.0,
+                11738.009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Haven Settlement",
+            "Position": [
+                6401.1201171875,
+                0.0,
+                8920.1396484375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Hawkins",
+            "Position": [
+                9642.41015625,
+                0.0,
+                10107.16015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Hawkins Nuclear Facility",
+            "Position": [
+                9667.9697265625,
+                0.0,
+                9066.9404296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Hog Horn Camp",
+            "Position": [
+                720.469970703125,
+                0.0,
+                587.97998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Industrial Park",
+            "Position": [
+                6166.27978515625,
+                0.0,
+                4660.56005859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "International Airport",
+            "Position": [
+                8504.01953125,
+                0.0,
+                1262.9200439453126
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "CityCapital",
+            "Name": "Jackson Falls",
+            "Position": [
+                2953.8798828125,
+                0.0,
+                7529.60009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Jackson Falls F.O.B.",
+            "Position": [
+                3445.780029296875,
+                0.0,
+                7625.6298828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Jackson Falls QZ",
+            "Position": [
+                2804.469970703125,
+                0.0,
+                7515.47998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Jasper",
+            "Position": [
+                5854.97021484375,
+                0.0,
+                414.95001220703127
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Jim the Baptist Refuge",
+            "Position": [
+                1544.3900146484376,
+                0.0,
+                9004.5
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "John's Pass Campgrounds",
+            "Position": [
+                4745.41015625,
+                0.0,
+                9371.0400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Junction",
+            "Position": [
+                6875.580078125,
+                0.0,
+                1896.2900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Juno",
+            "Position": [
+                8424.3095703125,
+                0.0,
+                3142.780029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "Juno Barracks",
+            "Position": [
+                8747.4404296875,
+                0.0,
+                2822.360107421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Marine",
+            "Name": "Kraft Lake",
+            "Position": [
+                5999.5498046875,
+                0.0,
+                7277.18994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Marine",
+            "Name": "Lake Horn",
+            "Position": [
+                1448.0799560546876,
+                0.0,
+                849.510009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "City",
+            "Name": "Lakeland",
+            "Position": [
+                7834.6298828125,
+                0.0,
+                5579.41015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Long John Campgrounds",
+            "Position": [
+                11164.41015625,
+                0.0,
+                5876.39013671875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "March Air Force Base",
+            "Position": [
+                11061.5302734375,
+                0.0,
+                11389.25
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "BorderCrossing",
+            "Name": "McClain Ranch",
+            "Position": [
+                8064.580078125,
+                0.0,
+                11737.51953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Milton",
+            "Position": [
+                3937.5,
+                0.0,
+                587.3400268554688
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Moreno Valley",
+            "Position": [
+                1048.47998046875,
+                0.0,
+                9641.8603515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Niceville",
+            "Position": [
+                3853.409912109375,
+                0.0,
+                4197.02001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "City",
+            "Name": "Ouray",
+            "Position": [
+                7712.2001953125,
+                0.0,
+                534.6300048828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Processing Plant",
+            "Position": [
+                8223.6396484375,
+                0.0,
+                4819.990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Quarry",
+            "Position": [
+                5697.97021484375,
+                0.0,
+                4344.8798828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Red Lodge",
+            "Position": [
+                6386.68994140625,
+                0.0,
+                3206.969970703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Riggins",
+            "Position": [
+                10651.6396484375,
+                0.0,
+                7115.18017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Rolling Hills",
+            "Position": [
+                9771.3798828125,
+                0.0,
+                5673.43017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Ruby Ridge",
+            "Position": [
+                1718.6300048828126,
+                0.0,
+                5203.27001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Sawmill",
+            "Position": [
+                5583.93994140625,
+                0.0,
+                5787.77001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Sefner",
+            "Position": [
+                10300.7197265625,
+                0.0,
+                2944.3701171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Silver Springs",
+            "Position": [
+                5735.5,
+                0.0,
+                5114.77001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Three Frogs Campgrounds",
+            "Position": [
+                11174.580078125,
+                0.0,
+                8015.93017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Troy",
+            "Position": [
+                10723.9697265625,
+                0.0,
+                2370.090087890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "City",
+            "Name": "Tyler",
+            "Position": [
+                10837.6201171875,
+                0.0,
+                1184.030029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "University",
+            "Position": [
+                3630.10009765625,
+                0.0,
+                7055.2001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Wind Farm",
+            "Position": [
+                7031.47021484375,
+                0.0,
+                4127.66015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Winter Park",
+            "Position": [
+                8399.9697265625,
+                0.0,
+                2366.97998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Village",
+            "Name": "Wood Pines",
+            "Position": [
+                4642.43994140625,
+                0.0,
+                3738.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Camp",
+            "Name": "Wounded Heel Campgrounds",
+            "Position": [
+                7489.97021484375,
+                0.0,
+                10549.7900390625
+            ],
+            "Radius": 4.0
+        }
+    ]
+}

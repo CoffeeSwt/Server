@@ -1,0 +1,12 @@
+/logs
+/mpmissions/empty.deerisle/storage_1
+/mpmissions/empty.Bitterroot/storage_1
+*.log
+*.RPT
+*.ADM
+/profiles/Bitterroot/DataCache
+/profiles/Bitterroot/Users
+/dayz-server.exe
+*.mdmp
+/profiles/Bitterroot/BattlEye/BEServer_x64.dll
+**/Logging
