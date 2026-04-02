@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
-    <!-- This is example message for automatic server termination -->
-    <message>
-        <!-- no delay -->
-        <delay>0</delay>
- 
-        <!-- if the value is larger than 0, then flag Repeat is enabled -->
-        <repeat>0</repeat>
- 
-        <!-- if the value is larger than 0, then flag Countdown is enabled,
-             countdown reaches zero in 10 hours --> 
-        <deadline>480</deadline>
- 
-        <!-- disable On connect flag -->
-        <onconnect>0</onconnect>
- 
-        <!-- enable Shutdown flag -->
+	<message>
+        <deadline>240</deadline>
         <shutdown>1</shutdown>
- 
-        <!-- message itself with placeholders -->
-        <text>This server will restart in #tmin minutes.</text>
+        <text>服务器将在 #tmin 分钟后关闭重启，请提前下线避免物资丢失</text>
+    </message>
+	<message>
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>服务器严禁拆家，严禁开挂，严禁私自拉人，遇到问题请在群里联系管理员</text>
+    </message>
+	<message>
+        <repeat>15</repeat>
+        <text>服务器严禁拆家，严禁开挂，严禁私自拉人，遇到问题请在群里联系管理员</text>
     </message>
 </messages>
