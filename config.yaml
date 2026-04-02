@@ -27,5 +27,11 @@ client_mods: [
     "@Simple Cinematics",
     "@Treasure",
     "@TreasurePhotosNamalsk",
+    "@Dabs Framework",
+    "@DayZ-Expansion-Core",
+    "@DayZ-Expansion-Licensed",
+    "@DayZ-Expansion-Animations",
+    "@DayZ-Expansion-Vehicles",
+    "@Increased Lumens",
   ] # 客户端模组
 server_mods: ["@heli_server"] # 服务器模组
