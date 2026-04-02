@@ -1,0 +1,14 @@
+{
+    "BannedNames": [
+        "Admin",
+        "Server",
+        "Moderator",
+        "Owner"
+    ],
+    "WhitelistedSteamIDs": [
+        "76561198000000000"
+    ],
+    "KickMessage": "Change your name",
+    "CaseSensitive": 0,
+    "PartialMatch": 1
+}

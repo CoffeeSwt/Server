@@ -1,10 +1,9 @@
-server_name: "Namalsk" # 服务器名称
+server_name: "Bitterroot" # 服务器名称
 port: 6969 # 端口号
-mission: "hardcore.namalsk" # 地图任务
+mission: "empty.Bitterroot" # 地图任务
 client_mods: [
     "@CF",
-    "@Namalsk Island",
-    "@Namalsk Survival",
+    "@Bitterroot",
     "@Code Lock",
     "@Ear-Plugs",
     "@Inventory Move Sounds",

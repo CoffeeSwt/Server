@@ -10,3 +10,9 @@
 *.mdmp
 /profiles/Bitterroot/BattlEye/BEServer_x64.dll
 **/Logging
+/mpmissions/hardcore.namalsk/storage_1
+/profiles/Namalsk/CodeLock/Logs
+/profiles/Namalsk/BattlEye
+/profiles/Namalsk/DataCache
+/profiles/Namalsk/RaG_Core/Logs
+/profiles/Namalsk/Users
