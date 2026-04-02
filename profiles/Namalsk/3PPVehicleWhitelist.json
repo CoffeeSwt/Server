@@ -1,11 +1,22 @@
 {
-    "DriverOnly": "false",
-    "Whitelist": [
-        "OffroadHatchback",
-        "Hatchback_02",
-        "CivilianSedan",
-        "Sedan_02",
-        "Truck_01_Covered",
-        "Offroad_02"
-    ]
+  "DriverOnly": "false",
+  "Whitelist": [
+    "OffroadHatchback",
+    "Hatchback_02",
+    "CivilianSedan",
+    "Sedan_02",
+    "Truck_01_Covered",
+    "Offroad_02",
+    "Helipolice_SIB4",
+    "Helipolice_swat_SIB5",
+    "HeliSIB_UH1D",
+    "HeliSIB_UH1D_airforce",
+    "HeliSIB_UH1D_iron",
+    "HeliSIB_UH1D_navy",
+    "Heliblack_hawk_SIB",
+    "Heliblack_hawk_SIB_camo",
+    "HeliMI17_SIB",
+    "HeliMH6_SIB",
+    "HeliSIB_hommade"
+  ]
 }

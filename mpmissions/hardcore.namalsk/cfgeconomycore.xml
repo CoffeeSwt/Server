@@ -23,5 +23,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="types_extra">
 		<file name="BoomLay.xml" type="types" />
 		<file name="Rag_baseBuilding.xml" type="types" />
+		<file name="types_heli.xml" type="types" />
+		<file name="winter_clothing.xml" type="types" />
 	</ce>
 </economycore>

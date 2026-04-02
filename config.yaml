@@ -21,7 +21,11 @@ client_mods: [
     "@BoomLay's Things",
     "@Boomlays Things Inventory Fix 1.27",
     "@Name Restrictor",
+    "@Helicopter Mod",
+    "@WindstridesClothingPack",
+    "@DF-Test",
+    "@Simple Cinematics",
+    "@Treasure",
+    "@TreasurePhotosNamalsk",
   ] # 客户端模组
-server_mods: [
-    
-] # 服务器模组
+server_mods: ["@heli_server"] # 服务器模组

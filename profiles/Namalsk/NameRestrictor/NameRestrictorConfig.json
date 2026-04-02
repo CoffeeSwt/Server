@@ -3,12 +3,13 @@
         "Admin",
         "Server",
         "Moderator",
-        "Owner"
+        "Owner",
+        "Survivor"
     ],
     "WhitelistedSteamIDs": [
         "76561198000000000"
     ],
-    "KickMessage": "Change your name",
+    "KickMessage": "请给自己起个名字后再进入游戏，启动器,参数，找到配置文件名称，填写自己得游戏名称（不能使用中文）",
     "CaseSensitive": 0,
     "PartialMatch": 1
 }
