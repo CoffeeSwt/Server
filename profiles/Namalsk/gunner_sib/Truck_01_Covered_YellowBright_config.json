@@ -1,0 +1,205 @@
+{
+	"Version":1.9945,
+	"Action":0,
+	"Debug":0,
+	"Gunner1_Type":0,
+	"Gunner1_Collision":0,
+	"Gunner1_Intersect":2,
+	"Gunner1_ScriptCollision":1,
+	"Gunner1_script_floor":1,
+	"Gunner1_Camera":0,
+	"Gunner1_Distance":2,
+	"Gunner1_Stance":1,
+	"Gunner1_Move":1,
+	"Gunner1_Dir":0,
+	"Gunner1_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner1_PosAuto":[
+	-0.499255,
+	1.37939,
+	1.34468
+],
+	"Gunner2_Type":0,
+	"Gunner2_Collision":0,
+	"Gunner2_Intersect":2,
+	"Gunner2_ScriptCollision":1,
+	"Gunner2_script_floor":1,
+	"Gunner2_Camera":0,
+	"Gunner2_Distance":2,
+	"Gunner2_Stance":1,
+	"Gunner2_Move":1,
+	"Gunner2_Dir":0,
+	"Gunner2_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner2_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner3_Type":0,
+	"Gunner3_Collision":0,
+	"Gunner3_Intersect":2,
+	"Gunner3_ScriptCollision":1,
+	"Gunner3_script_floor":1,
+	"Gunner3_Camera":0,
+	"Gunner3_Distance":2,
+	"Gunner3_Stance":1,
+	"Gunner3_Move":1,
+	"Gunner3_Dir":0,
+	"Gunner3_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner3_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner4_Type":0,
+	"Gunner4_Collision":0,
+	"Gunner4_Intersect":2,
+	"Gunner4_ScriptCollision":1,
+	"Gunner4_script_floor":1,
+	"Gunner4_Camera":0,
+	"Gunner4_Distance":2,
+	"Gunner4_Stance":1,
+	"Gunner4_Move":1,
+	"Gunner4_Dir":0,
+	"Gunner4_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner4_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner5_Type":0,
+	"Gunner5_Collision":0,
+	"Gunner5_Intersect":2,
+	"Gunner5_ScriptCollision":1,
+	"Gunner5_script_floor":1,
+	"Gunner5_Camera":0,
+	"Gunner5_Distance":2,
+	"Gunner5_Stance":1,
+	"Gunner5_Move":1,
+	"Gunner5_Dir":0,
+	"Gunner5_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner5_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner6_Type":0,
+	"Gunner6_Collision":0,
+	"Gunner6_Intersect":2,
+	"Gunner6_ScriptCollision":1,
+	"Gunner6_script_floor":1,
+	"Gunner6_Camera":0,
+	"Gunner6_Distance":2,
+	"Gunner6_Stance":1,
+	"Gunner6_Move":1,
+	"Gunner6_Dir":0,
+	"Gunner6_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner6_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner7_Type":0,
+	"Gunner7_Collision":0,
+	"Gunner7_Intersect":2,
+	"Gunner7_ScriptCollision":1,
+	"Gunner7_script_floor":1,
+	"Gunner7_Camera":0,
+	"Gunner7_Distance":2,
+	"Gunner7_Stance":1,
+	"Gunner7_Move":1,
+	"Gunner7_Dir":0,
+	"Gunner7_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner7_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner8_Type":0,
+	"Gunner8_Collision":0,
+	"Gunner8_Intersect":2,
+	"Gunner8_ScriptCollision":1,
+	"Gunner8_script_floor":1,
+	"Gunner8_Camera":0,
+	"Gunner8_Distance":2,
+	"Gunner8_Stance":1,
+	"Gunner8_Move":1,
+	"Gunner8_Dir":0,
+	"Gunner8_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner8_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner9_Type":0,
+	"Gunner9_Collision":0,
+	"Gunner9_Intersect":2,
+	"Gunner9_ScriptCollision":1,
+	"Gunner9_script_floor":1,
+	"Gunner9_Camera":0,
+	"Gunner9_Distance":2,
+	"Gunner9_Stance":1,
+	"Gunner9_Move":1,
+	"Gunner9_Dir":0,
+	"Gunner9_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner9_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+],
+	"Gunner10_Type":0,
+	"Gunner10_Collision":0,
+	"Gunner10_Intersect":2,
+	"Gunner10_ScriptCollision":1,
+	"Gunner10_script_floor":1,
+	"Gunner10_Camera":0,
+	"Gunner10_Distance":2,
+	"Gunner10_Stance":1,
+	"Gunner10_Move":1,
+	"Gunner10_Dir":0,
+	"Gunner10_Pos":[
+	0,
+	0,
+	0
+],
+	"Gunner10_PosAuto":[
+	0.64803,
+	1.36206,
+	1.28308
+]
+}
