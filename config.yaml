@@ -4,6 +4,8 @@ mission: "empty.deerisle" # 地图任务
 client_mods: [
     "@CF",
     "@DeerIsle",
+    "@Code Lock",
+    "@Ear-Plugs",
     "@Dabs Framework",
     "@Inventory Move Sounds",
     "@SkyZ - Skybox Overhaul",
