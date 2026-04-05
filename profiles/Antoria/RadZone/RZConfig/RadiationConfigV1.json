@@ -1,0 +1,61 @@
+{
+    "IsRadiationZoneActive": 1,
+    "RadChanceVomit": 0.2,
+    "RadChanceBleeding": 0.15,
+    "RadBloodLossDamage": 100.0,
+    "RadHealthDamage": 2.0,
+    "RadHighMultiplier": 2.5,
+    "QtyRadReducedPerMin": 120.0,
+    "SuitsDamage": 5,
+    "RequiredProtection": 6,
+    "CriticalProtection": 70,
+    "ClothesQuantityMultiplier": 0.15,
+    "AmountGivenAfterCriticalProtection": 0.2,
+    "RadiationAreaLocation": [
+        {
+            "RadiationZoneStatut": "nukeisland",
+            "X": 4261.01,
+            "Y": 15379.8,
+            "Radius": 600.0,
+            "IsSquareZone": 0,
+            "X1": -1.0,
+            "Y1": -1.0,
+            "X2": -1.0,
+            "Y2": -1.0,
+            "IsMsgActive": 0,
+            "MsgEnterZone": "YOU ARE IN A RADIATION AREA!",
+            "MsgExitZone": "YOU LEFT THE RADIATION AREA!",
+            "NbSickGivenForRadiation": 90
+        },
+        {
+            "RadiationZoneStatut": "nukeisland_zone2",
+            "X": 4473.52,
+            "Y": 14919.25,
+            "Radius": 600.0,
+            "IsSquareZone": 0,
+            "X1": -1.0,
+            "Y1": -1.0,
+            "X2": -1.0,
+            "Y2": -1.0,
+            "IsMsgActive": 0,
+            "MsgEnterZone": "YOU ARE IN A RADIATION AREA!",
+            "MsgExitZone": "YOU LEFT THE RADIATION AREA!",
+            "NbSickGivenForRadiation": 90
+        },
+	{
+ 	    "RadiationZoneStatut": "skaerheim_kmy_island_ring",
+ 	    "X": 19625.273438,
+ 	    "Y": 854.666138,
+ 	    "Radius": 350.0,
+ 	    "IsSquareZone": 0,
+ 	    "X1": -1.0,
+    	    "Y1": -1.0,
+ 	    "X2": -1.0,
+ 	    "Y2": -1.0,
+ 	    "IsMsgActive": 0,
+ 	    "MsgEnterZone": "YOU ARE IN A RADIATION AREA!",
+  	    "MsgExitZone": "YOU LEFT THE RADIATION AREA!",
+  	    "NbSickGivenForRadiation": 90
+	}
+    ]
+}

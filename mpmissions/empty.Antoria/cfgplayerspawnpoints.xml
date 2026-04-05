@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playerspawnpoints>
+	<fresh>
+		<spawn_params>
+			<min_dist_infected>30.0</min_dist_infected>
+			<max_dist_infected>70.0</max_dist_infected>
+			<min_dist_player>25.0</min_dist_player>
+			<max_dist_player>70.0</max_dist_player>
+			<min_dist_static>0.5</min_dist_static>
+			<max_dist_static>2.0</max_dist_static>
+		</spawn_params>
+
+		<generator_params>
+			<grid_density>8</grid_density>
+			<grid_width>40.0</grid_width>
+			<grid_height>40.0</grid_height>
+			<min_dist_static>0.5</min_dist_static>
+			<max_dist_static>2.0</max_dist_static>
+			<min_steepness>-45</min_steepness>
+			<max_steepness>45</max_steepness>
+		</generator_params>
+
+		<generator_posbubbles>
+			<!-- Vladton -->
+			<pos x="18343" z="8545" />
+			<pos x="18410" z="8480" />
+			<pos x="18260" z="8620" />
+			<pos x="18300" z="8435" />
+
+			<!-- Scouts -->
+			<pos x="11583" z="3937" />
+			<pos x="11620" z="4000" />
+			<pos x="11520" z="3875" />
+			<pos x="11480" z="3960" />
+
+			<!-- Beach -->
+			<pos x="13984" z="1068" />
+			<pos x="13900" z="1110" />
+			<pos x="14050" z="1020" />
+			<pos x="13940" z="1200" />
+			
+			<!-- Latina -->
+			<pos x="16885.8" z="4297.9" />
+			<pos x="17451.4" z="3481.4" />
+			<pos x="17884.1" z="3454.8" />
+			<pos x="17139.6" z="3866.5" />
+
+			<!-- Winto -->
+			<pos x="7909" z="3452" />
+			<pos x="7960" z="3500" />
+			<pos x="7850" z="3400" />
+			<pos x="7800" z="3485" />
+
+			<!-- Unnamed Town -->
+			<pos x="17621" z="1395" />
+			<pos x="17680" z="1340" />
+			<pos x="17580" z="1420" />
+			<pos x="17520" z="1365" />
+
+			<!-- Nasper -->
+			<pos x="9675.6" z="2243.8" />
+			<pos x="9339.1" z="2155.3" />
+			<pos x="9805.4" z="2173.2" />
+			<pos x="9422.8" z="2536.0" />
+
+			<!-- Rosco -->
+			<pos x="13070.5" z="6107.6" />
+			<pos x="13012.5" z="6433.3" />
+			<pos x="12736.1" z="6178.4" />
+			<pos x="12792.3" z="5982.2" />
+
+			<!-- Hydro -->
+			<pos x="2905.2" z="3567.0" />
+			<pos x="2632.9" z="3786.4" />
+
+			<!-- Mervy -->
+			<pos x="13301.4" z="1733.8" />
+			<pos x="13371.7" z="1935.3" />
+			<pos x="13579.6" z="1992.9" />
+			<pos x="13284.8" z="1512.7" />
+
+			<!-- New manual spawn points -->
+			<pos x="2529.817383" z="844.762695" />
+			<pos x="3332.458496" z="1665.724731" />
+			<pos x="15027.426758" z="4348.192871" />
+			<pos x="15281.991211" z="5355.450684" />
+			<pos x="12466.457031" z="1922.219971" />
+			<pos x="6913.873535" z="3308.810303" />
+			<pos x="7766.959961" z="7232.356934" />
+			<pos x="7292.145020" z="5865.675293" />
+		</generator_posbubbles>
+	</fresh>
+
+	<hop>
+		<generator_posbubbles>
+			<!-- Near Vladton -->
+			<pos x="18463" z="8635" />
+			<pos x="18530" z="8570" />
+
+			<!-- Near Scouts -->
+			<pos x="11683" z="4027" />
+			<pos x="11740" z="4090" />
+
+			<!-- Near Beach -->
+			<pos x="14084" z="1158" />
+			<pos x="14020" z="1200" />
+
+			<!-- Near Latina -->
+			<pos x="16985.8" z="4387.9" />
+			<pos x="17551.4" z="3571.4" />
+
+			<!-- Near Winto -->
+			<pos x="8029" z="3542" />
+			<pos x="8080" z="3590" />
+
+			<!-- Near Unnamed Town -->
+			<pos x="17741" z="1485" />
+			<pos x="17800" z="1430" />
+
+			<!-- Near Nasper -->
+			<pos x="9795.6" z="2333.8" />
+			<pos x="9459.1" z="2245.3" />
+
+			<!-- Near Rosco -->
+			<pos x="13190.5" z="6197.6" />
+			<pos x="12912.3" z="6072.2" />
+
+			<!-- Near Hydro -->
+			<pos x="3025.2" z="3657.0" />
+			<pos x="2752.9" z="3876.4" />
+
+			<!-- Near Mervy -->
+			<pos x="13421.4" z="1823.8" />
+			<pos x="13699.6" z="2082.9" />
+
+			<!-- Near new manual points -->
+			<pos x="2649.817383" z="934.762695" />
+			<pos x="3452.458496" z="1755.724731" />
+			<pos x="15147.426758" z="4438.192871" />
+			<pos x="15401.991211" z="5445.450684" />
+			<pos x="12586.457031" z="2012.219971" />
+			<pos x="7033.873535" z="3398.810303" />
+			<pos x="7886.959961" z="7322.356934" />
+			<pos x="7192.145020" z="5765.675293" />
+		</generator_posbubbles>
+	</hop>
+
+	<travel>
+		<generator_posbubbles>
+			<!-- Near Vladton (opposite offset) -->
+			<pos x="18223" z="8455" />
+			<pos x="18290" z="8390" />
+
+			<!-- Near Scouts -->
+			<pos x="11463" z="3847" />
+			<pos x="11500" z="3910" />
+
+			<!-- Near Beach -->
+			<pos x="13864" z="978" />
+			<pos x="13820" z="1110" />
+
+			<!-- Near Latina -->
+			<pos x="16765.8" z="4207.9" />
+			<pos x="17331.4" z="3391.4" />
+
+			<!-- Near Winto -->
+			<pos x="7789" z="3362" />
+			<pos x="7840" z="3410" />
+
+			<!-- Near Unnamed Town -->
+			<pos x="17501" z="1305" />
+			<pos x="17560" z="1240" />
+
+			<!-- Near Nasper -->
+			<pos x="9555.6" z="2153.8" />
+			<pos x="9219.1" z="2065.3" />
+
+			<!-- Near Rosco -->
+			<pos x="12950.5" z="6017.6" />
+			<pos x="12672.3" z="5892.2" />
+
+			<!-- Near Hydro -->
+			<pos x="2785.2" z="3477.0" />
+			<pos x="2512.9" z="3696.4" />
+
+			<!-- Near Mervy -->
+			<pos x="13181.4" z="1643.8" />
+			<pos x="13459.6" z="1902.9" />
+
+			<!-- Near new manual points -->
+			<pos x="2409.817383" z="754.762695" />
+			<pos x="3212.458496" z="1575.724731" />
+			<pos x="14907.426758" z="4258.192871" />
+			<pos x="15161.991211" z="5265.450684" />
+			<pos x="12346.457031" z="1832.219971" />
+			<pos x="6793.873535" z="3218.810303" />
+			<pos x="7646.959961" z="7142.356934" />
+			<pos x="7566.959961" z="7032.356934" />
+		</generator_posbubbles>
+	</travel>
+</playerspawnpoints>

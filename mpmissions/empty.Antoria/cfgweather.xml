@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- 'reset' and 'enable' are a bool, and therefore support: 0/1, true/false, yes/no -->
+<!-- 'reset' controls whether you want to load in the weather from storage or not (false by default) -->
+<!-- 'enable' controls whether this file is enabled or not (true by default) -->
+<weather reset="1" enable="1">
+    <overcast>
+        <!-- Keep plenty of sunshine, still allow high but not extreme. -->
+        <current actual="0.20" time="120" duration="240" />
+        <limits min="0.0" max="0.80" />
+        <!-- Slower overcast swings = fewer chances to hit the rain window -->
+        <timelimits min="600" max="900" />
+        <changelimits min="0.0" max="0.6" />
+    </overcast>
+
+    <fog>
+        <!-- As you had it -->
+        <current actual="0.25" time="120" duration="240" />
+        <limits min="0.0" max="0.3" />
+        <timelimits min="900" max="1200" />
+        <changelimits min="0.0" max="1.0" />
+    </fog>
+
+    <rain>
+        <!-- Start drier, fade quickly -->
+        <current actual="0.0" time="60" duration="60" />
+        <!-- Keep rain light even when it happens -->
+        <limits min="0.0" max="0.20" />
+        <!-- Faster transitions so showers are short -->
+        <timelimits min="120" max="240" />
+        <!-- Moderate step sizes so it ramps up/down quickly -->
+        <changelimits min="0.20" max="0.60" />
+        <!-- Narrow, high overcast window so it rarely triggers
+             (your overcast max is 0.80, so this only fires near the top) -->
+        <thresholds min="0.79" max="1.0" end="60" />
+    </rain>
+
+    <windMagnitude>
+        <current actual="0.0" time="120" duration="240" />
+        <limits min="0.0" max="20.0" />
+        <timelimits min="240" max="480" />
+        <changelimits min="2.0" max="10.0" />
+    </windMagnitude>
+
+    <windDirection>
+        <current actual="0.0" time="120" duration="240" />
+        <limits min="-3.14" max="3.14" />
+        <timelimits min="60" max="120" />
+        <changelimits min="-1.0" max="1.0" />
+    </windDirection>
+
+    <!-- Snowfall disabled -->
+    <snowfall>
+        <current actual="0.0" time="0" duration="0" />
+        <limits min="0.0" max="0.0" />
+        <timelimits min="0" max="0" />
+        <changelimits min="0.0" max="0.0" />
+        <thresholds min="0.0" max="0.0" end="0" />
+    </snowfall>
+
+    <!-- Storm settings unchanged -->
+    <storm density="0.5" threshold="0.8" timeout="45"/>
+</weather>

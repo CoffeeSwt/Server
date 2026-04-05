@@ -1,0 +1,1866 @@
+{
+  "ModVersion": "1.2",
+  "ConfigVersion": 3,
+  "ZombieSpawnLocationData": [
+    {
+      "Label": "Sector12_1",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16145.577148,
+        41.081997,
+        16541.978516
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Sector12_2",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16156.28125,
+        32.929111,
+        16666.386719
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Sector12_3",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16277.583984,
+        41.196949,
+        16570.591797
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Sector12_4",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16322.695313,
+        41.13208,
+        16567.533203
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Sector12_5",
+      "MinSpawnAmount": 6,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16304.21875,
+        5.063569,
+        16741.527344
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Underground_Prison_Packboy",
+      "MinSpawnAmount": 1,
+      "MaxSpawnAmount": 3,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        17427.447266,
+        144.0,
+        4744.457031
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WDS_Lab_Packboy",
+      "MinSpawnAmount": 1,
+      "MaxSpawnAmount": 1,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        1642.332764,
+        47.60601,
+        6606.816406
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WDS_Base_A_Packboys",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 3,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        1622.449219,
+        1.16728,
+        6541.662598
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WDS_Base_B_Packboys",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 3,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        1622.589355,
+        1.16728,
+        6591.606934
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Povlovo",
+      "MinSpawnAmount": 2,
+      "MaxSpawnAmount": 3,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        13948.874023,
+        137.606979,
+        2807.411377
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Hoard_19185",
+      "MinSpawnAmount": 15,
+      "MaxSpawnAmount": 15,
+      "SpawnMaxRadius": 5.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        19185.824219,
+        3.240012,
+        3572.270752
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Heavy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Officer_Convoy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Officer_Convoy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WAF1",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 7,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        2653.295898,
+        245.904648,
+        6811.57666
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WAF2",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 7,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        2678.219971,
+        245.81575,
+        6916.239258
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "WAF3",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 7,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        2622.788574,
+        245.568008,
+        7108.437988
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Officer_Convoy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "TinsleyMine_Upper_Packboys",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 3,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 150.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        13315.174805,
+        189.49938,
+        5332.477539
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Crookes_backroom_Packboys",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 5,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5580.056641,
+        245.752014,
+        6172.474121
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Reasearch",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9497.742188,
+        107.491974,
+        9809.041016
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Hoard_owls",
+      "MinSpawnAmount": 15,
+      "MaxSpawnAmount": 15,
+      "SpawnMaxRadius": 5.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        8800.241211,
+        131.072006,
+        9726.039063
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Heavy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Officer_Convoy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_usSoldier_Officer_Convoy",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Kids_Manual_Spawn_11737x3819",
+      "MinSpawnAmount": 8,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 50.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        11737.25,
+        359.98999,
+        3819.842285
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbF_SkaterYoung_Striped_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbF_SkaterYoung_Brown_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbF_SkaterYoung_Violet_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_SkaterYoung_Brown_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_SkaterYoung_Green_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_SkaterYoung_Grey_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_Gamedev_Black_kid",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_Gamedev_Blue_kid",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Skaerheim_1",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 80.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        19558.601563,
+        72.605759,
+        759.822083
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "GasMask_Filter"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Skaerheim_2",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 80.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        19685.857422,
+        72.605759,
+        692.476929
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "GasMask_Filter"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Skaerheim_3",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 80.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        19690.431641,
+        72.605621,
+        885.289734
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "GasMask_Filter"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Skaerheim_4",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 80.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        19602.900391,
+        72.3936,
+        955.036987
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "GasMask_Filter"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Zootoria_Primates_1",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 9,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 300.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9778.024414,
+        143.37001,
+        4464.658203
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Zootoria_Primates_2",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 9,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 300.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9632.701172,
+        153.241974,
+        4465.720703
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Zootoria_Primates_3",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 9,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 300.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9885.442383,
+        154.86998,
+        4474.796875
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Zootoria_Primates_4",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 9,
+      "SpawnMaxRadius": 2.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 300.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9561.583008,
+        154.879929,
+        4687.748535
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHard_Old_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_GorillaHard_Zmb",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "BZK_ChimpHardGlowEyes_Zmb",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F1_A",
+      "MinSpawnAmount": 6,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5362.761719,
+        598.154968,
+        9241.301758
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F1_B",
+      "MinSpawnAmount": 6,
+      "MaxSpawnAmount": 8,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5300.285156,
+        598.130005,
+        9228.65625
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F2_A",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5381.242188,
+        628.521118,
+        9226.133789
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F2_B",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5303.608887,
+        631.640137,
+        9239.814453
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F2_C",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5342.062988,
+        631.638184,
+        9228.177734
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "DevilsArse_F2_D",
+      "MinSpawnAmount": 4,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 3.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 100.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        5416.947266,
+        625.315369,
+        9171.253906
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        },
+        {
+          "SpawnClassName": "WY_Treeman",
+          "SpawnAttachments": []
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Ship_Top_A",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 4,
+      "SpawnMaxRadius": 1.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 120.0,
+      "PlayerTriggerArea": [
+        { "TriggerLocation": [0.0, 0.0, 0.0], "TriggerRadius": -1.0 }
+      ],
+      "SpawnLocation": [9452.860352, 17.975201, 10516.500000],
+      "ZombiesToSpawn": [
+        { "SpawnClassName": "ZmbM_NBC_White",  "SpawnAttachments": [] },
+        { "SpawnClassName": "ZmbM_NBC_Grey",   "SpawnAttachments": [] },
+        { "SpawnClassName": "ZmbM_NBC_Yellow", "SpawnAttachments": [] },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": ["Antoria_KeyCard", "fmdpk_landingpad_key_1", "Paper"]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Ship_Top_B",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 4,
+      "SpawnMaxRadius": 1.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 120.0,
+      "PlayerTriggerArea": [
+        { "TriggerLocation": [0.0, 0.0, 0.0], "TriggerRadius": -1.0 }
+      ],
+      "SpawnLocation": [9386.570313, 20.419300, 10528.099609],
+      "ZombiesToSpawn": [
+        { "SpawnClassName": "ZmbM_NBC_White",  "SpawnAttachments": [] },
+        { "SpawnClassName": "ZmbM_NBC_Grey",   "SpawnAttachments": [] },
+        { "SpawnClassName": "ZmbM_NBC_Yellow", "SpawnAttachments": [] },
+        { "SpawnClassName": "packboy",         "SpawnAttachments": [] }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Ship_Mid",
+      "MinSpawnAmount": 1,
+      "MaxSpawnAmount": 2,
+      "SpawnMaxRadius": 1.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 120.0,
+      "PlayerTriggerArea": [
+        { "TriggerLocation": [0.0, 0.0, 0.0], "TriggerRadius": -1.0 }
+      ],
+      "SpawnLocation": [9433.049805, 16.416300, 10514.200195],
+      "ZombiesToSpawn": [
+        { "SpawnClassName": "ZmbM_NBC_Grey", "SpawnAttachments": [] },
+        { "SpawnClassName": "packboy",       "SpawnAttachments": [] }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Ship_Stern",
+      "MinSpawnAmount": 1,
+      "MaxSpawnAmount": 2,
+      "SpawnMaxRadius": 1.5,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 0,
+      "PlayerSafeDistance": 120.0,
+      "PlayerTriggerArea": [
+        { "TriggerLocation": [0.0, 0.0, 0.0], "TriggerRadius": -1.0 }
+      ],
+      "SpawnLocation": [9394.040039, 11.637800, 10524.400391],
+      "ZombiesToSpawn": [
+        { "SpawnClassName": "ZmbM_NBC_White", "SpawnAttachments": [] },
+        { "SpawnClassName": "packboy",        "SpawnAttachments": [] }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Sector12_1",
+      "MinSpawnAmount": 3,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 500.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        16145.577148,
+        41.081997,
+        16541.978516
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Crumpet_maze",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 150.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9600.334961,
+        27.9956,
+        15787.971680
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Crumpet_maze2",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 150.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9575.910156,
+        27.9956,
+        15825.500000
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Crumpet_sub",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 250.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9629.735352,
+        14.5,
+        15681.989258
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    },
+    {
+      "Label": "Crumpet_sub",
+      "MinSpawnAmount": 5,
+      "MaxSpawnAmount": 6,
+      "SpawnMaxRadius": 1.0,
+      "SpawnToSurface": 0,
+      "SpawnDelaySeconds": 300,
+      "FirstSpawnDelaySeconds": 300,
+      "PlayerSafeDistance": 250.0,
+      "PlayerTriggerArea": [
+        {
+          "TriggerLocation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "TriggerRadius": -1.0
+        }
+      ],
+      "SpawnLocation": [
+        9548.249023,
+        14.5,
+        15649.454102
+      ],
+      "ZombiesToSpawn": [
+        {
+          "SpawnClassName": "ZmbM_NBC_White",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Grey",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "ZmbM_NBC_Yellow",
+          "SpawnAttachments": []
+        },
+        {
+          "SpawnClassName": "packboy",
+          "SpawnAttachments": [
+            "Antoria_KeyCard",
+            "fmdpk_landingpad_key_1"
+          ]
+        }
+      ],
+      "AnimalsToSpawn": []
+    }
+  ]
+}

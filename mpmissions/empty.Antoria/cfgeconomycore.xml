@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+		<rootclass name="DefaultWeapon"/>
+		<!-- weapons -->
+		<rootclass name="DefaultMagazine"/>
+		<!-- magazines -->
+		<rootclass name="Inventory_Base"/>
+		<!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no"/>
+		<!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no"/>
+		<!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no"/>
+		<!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no"/>
+		<!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+		<rootclass name="BoatScript" act="car" reportMemoryLOD="no"/>
+		<!-- boats -->
+	</classes>
+	<defaults> <!-- removed clear_loot line as it has no place in DZ -->
+		<default name="dyn_radius" value="30"/>
+		<default name="dyn_smin" value="0"/>
+		<default name="dyn_smax" value="0"/>
+		<default name="dyn_dmin" value="1"/>
+		<default name="dyn_dmax" value="5"/>
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="true"/>
+		<default name="log_ce_lootcleanup" value="true"/>
+		<default name="log_ce_lootrespawn" value="true"/>
+		<default name="log_ce_statistics" value="true"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_ce_animal" value="false"/>
+		<default name="log_storageinfo" value="true"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
+	<!-- Antoria_CE All Antoria types go here -->
+	<ce folder="antoria_ce">
+		<file name="antoria_animal_types.xml" type="types"/>
+		<file name="antoria_clothing_types.xml" type="types"/>
+		<file name="antoria_consumables_types.xml" type="types"/>
+		<file name="antoria_event_types.xml" type="types"/>
+		<file name="antoria_infected_types.xml" type="types"/>
+		<file name="antoria_events.xml" type="events"/>
+		<file name="antoria_spawnabletypes.xml" type="spawnabletypes"/>
+		<file name="bunker_types.xml" type="types"/>
+                <file name="antoria_weapon_types.xml" type="types"/>
+	</ce>
+	<!-- Mods CE All mod types.xml's go in this folder comment the ones you don't want to load -->
+	<ce folder="mods_ce">
+		<file name="berzerk_types.xml" type="types"/>
+		<!--<file name="enhanced_flags_types.xml" type="types"/> -->
+        <file name="radzone_types.xml" type="types"/>
+		<!-- example line to show how to comment out and prevent file from being loaded <file name="example_types.xml" type="types"/> -->
+		<!--<file name="bicycle_types.xml" type="types"/> -->
+		<!--<file name="horse_types.xml" type="types"/> -->
+		<!--<file name="mbm_gokart_types.xml" type="types"/> -->
+		<!--<file name="mbm_gokart_spawnabletypes.xml" type="spawnabletypes"/>	-->		
+		<file name="mod_events.xml" type="events"/> 
+		<file name="codelock.xml" type="types"/>
+	</ce> 
+		<ce folder="types_extra">
+		<file name="BoomLay.xml" type="types" />
+		<file name="Rag_baseBuilding.xml" type="types" />
+		<file name="types_heli.xml" type="types" />
+		<file name="winter_clothing.xml" type="types" />
+	</ce>
+	<ce folder="expansion_ce">
+		<file name="expansion_types.xml" type="types" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+</economycore>

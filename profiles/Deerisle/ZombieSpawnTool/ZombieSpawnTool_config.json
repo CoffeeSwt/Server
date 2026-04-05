@@ -1,0 +1,96 @@
+{
+    "ModVersion": "1.2",
+    "ConfigVersion": 3,
+    "ZombieSpawnLocationData": [
+        {
+            "Label": "",
+            "MinSpawnAmount": 0,
+            "MaxSpawnAmount": 0,
+            "SpawnMaxRadius": 10.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 300,
+            "FirstSpawnDelaySeconds": 300,
+            "PlayerSafeDistance": 500.0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TriggerRadius": -1.0
+                }
+            ],
+            "SpawnLocation": [
+                4446.080078125,
+                339.0119934082031,
+                10266.7998046875
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "ZmbM_CitizenASkinny_Blue",
+                    "SpawnAttachments": [
+                        "PlateCarrierVest",
+                        "Ssh68Helmet"
+                    ]
+                },
+                {
+                    "SpawnClassName": "ZmbM_usSoldier_normal_Woodland",
+                    "SpawnAttachments": [
+                        "PlateCarrierVest",
+                        "Ssh68Helmet"
+                    ]
+                }
+            ],
+            "AnimalsToSpawn": [
+                "Animal_CanisLupus_Grey",
+                "Animal_CanisLupus_White"
+            ]
+        },
+        {
+            "Label": "",
+            "MinSpawnAmount": 0,
+            "MaxSpawnAmount": 0,
+            "SpawnMaxRadius": 10.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 300,
+            "FirstSpawnDelaySeconds": 300,
+            "PlayerSafeDistance": 500.0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TriggerRadius": -1.0
+                }
+            ],
+            "SpawnLocation": [
+                4450.080078125,
+                339.0119934082031,
+                10266.7998046875
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "ZmbM_CitizenASkinny_Blue",
+                    "SpawnAttachments": [
+                        "PlateCarrierVest",
+                        "Ssh68Helmet"
+                    ]
+                },
+                {
+                    "SpawnClassName": "ZmbM_usSoldier_normal_Woodland",
+                    "SpawnAttachments": [
+                        "PlateCarrierVest",
+                        "Ssh68Helmet"
+                    ]
+                }
+            ],
+            "AnimalsToSpawn": [
+                "Animal_CanisLupus_Grey",
+                "Animal_CanisLupus_White"
+            ]
+        }
+    ]
+}

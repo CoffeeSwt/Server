@@ -1,0 +1,354 @@
+<events>
+<event name="StaticPoliceCar">
+        <nominal>5</nominal>
+        <min>0</min>
+        <max>5</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <secondary>InfectedPoliceHard</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+        <child lootmax="5" lootmin="3" max="4" min="2" type="Land_Wreck_hb01_aban1_police_DE"/>
+		<child lootmax="5" lootmin="3" max="4" min="2" type="Land_Wreck_hb01_aban2_police_DE"/>
+        <child lootmax="5" lootmin="3" max="4" min="1" type="Land_Vaux_Policedvan_1_DE"/>
+        </children>
+    </event>
+	<event name="StaticSnowMobileVan">
+        <nominal>3</nominal>
+        <min>1</min>
+        <max>5</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>240</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+        <child lootmax="5" lootmin="3" max="1" min="1" type="Land_snow_mobile_vlad_1_DE"/>
+        </children>
+    </event>	
+	
+	<event name="ItemTitan_Exosuit">
+		<nominal>1</nominal>
+		<min>0</min>
+		<max>1</max>
+		<lifetime>300</lifetime>
+		<restock>1800</restock>
+		<saferadius>1000</saferadius>
+		<distanceradius>1</distanceradius>
+		<cleanupradius>1000</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="TitanSuit"/>
+		</children>
+	</event>
+<!-- Titan_Bag Event -->
+<event name="ItemTitan_ExoBag">
+    <nominal>1</nominal>
+    <min>0</min>
+    <max>1</max>
+    <lifetime>300</lifetime>
+    <restock>1800</restock>
+    <saferadius>1000</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="Titan_Bag"/>
+    </children>
+</event>
+
+<!-- Titan_Battery Event -->
+<event name="ItemTitan_ExoBattery">
+    <nominal>1</nominal>
+    <min>0</min>
+    <max>1</max>
+    <lifetime>300</lifetime>
+    <restock>1800</restock>
+    <saferadius>1000</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="Titan_Battery"/>
+    </children>
+</event>
+
+<!-- Titan_BatteryCharger Event -->
+<event name="ItemTitan_ExoCharger">
+    <nominal>1</nominal>
+    <min>1</min>
+    <max>1</max>
+    <lifetime>300</lifetime>
+    <restock>1800</restock>
+    <saferadius>1000</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="Titan_BatteryCharger"/>
+    </children>
+</event>
+<event name="Item_packboy2">
+		<nominal>25</nominal>
+		<min>10</min>
+		<max>25</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>80</distanceradius>
+		<cleanupradius>120</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>0</active>
+		<children>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="ZmbM_NBC_Grey"/>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="ZmbM_NBC_White"/>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="ZmbM_NBC_Yellow"/>
+		</children>
+	</event>
+	<event name="InfectedPackboy">
+		<nominal>25</nominal>
+		<min>20</min>
+		<max>33</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>80</distanceradius>
+		<cleanupradius>120</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="2" type="packboy"/>
+		</children>
+	</event>
+    <event name="InfectedKids">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>50</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbF_SkaterYoung_Striped_kid"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbF_SkaterYoung_Brown_kid"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbF_SkaterYoung_Violet_kid"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbM_SkaterYoung_Brown_kid"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbM_SkaterYoung_Green_kid"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbM_SkaterYoung_Grey_kid"/>
+        </children>
+    </event>	
+    <event name="InfectedLunapark">
+        <nominal>40</nominal>
+        <min>25</min>
+        <max>40</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SkaterYoung_Striped_kid"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SkaterYoung_Brown_kid"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SkaterYoung_Violet_kid"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Brown_kid"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Green_kid"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Grey_kid"/>
+	    <child lootmax="5" lootmin="0" max="0" min="1" type="Berzerk_zmb_CaptainSpaulding"/>
+	    <child lootmax="5" lootmin="0" max="0" min="1" type="Ant_Clown"/>
+        </children>
+    </event>	
+    <event name="InfectedPlane">
+        <nominal>40</nominal>
+        <min>25</min>
+        <max>39</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SurvivorNormal_Blue" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SurvivorNormal_Orange" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SurvivorNormal_Red" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SurvivorNormal_White" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_CommercialPilotOld_Blue" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_CommercialPilotOld_Brown" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_CommercialPilotOld_Grey" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_CommercialPilotOld_Olive" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SkaterYoung_Striped_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SkaterYoung_Brown_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_SkaterYoung_Violet_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_SkaterYoung_Brown_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_SkaterYoung_Green_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_SkaterYoung_Grey_kid"/>
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_JournalistNormal_Blue" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_JournalistNormal_Green" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_JournalistNormal_Red" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbF_JournalistNormal_White" />
+         <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_JournalistSkinny" />
+        </children>
+    </event>	
+    	<event name="AnimalPolarBear">
+		<nominal>0</nominal>
+		<min>5</min>
+		<max>8</max>
+		<lifetime>180</lifetime>
+		<restock>0</restock>
+		<saferadius>200</saferadius>
+		<distanceradius>0</distanceradius>
+		<cleanupradius>0</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusMaritimus"/>
+			<child lootmax="0" lootmin="0" max="2" min="0" type="Animal_UrsusMaritimus_cub"/>
+		</children>
+	</event>
+   <!-- static train -->
+   <event name="StaticTrain">
+      <nominal>2</nominal>
+      <min>1</min>
+      <max>2</max>
+      <lifetime>5400</lifetime>
+      <restock>0</restock>
+      <saferadius>500</saferadius>
+      <distanceradius>1000</distanceradius>
+      <cleanupradius>1000</cleanupradius>
+      <secondary>InfectedIndustrial</secondary>
+      <flags deletable="1" init_random="0" remove_damaged="0" />
+      <position>fixed</position>
+      <limit>child</limit>
+      <active>1</active>
+      <children />
+   </event>
+   <!-- Endgame Barrel Event -->
+   <event name="ItemCrumpet_Endgame_Barrel">
+      <nominal>2</nominal>
+      <min>2</min>
+      <max>2</max>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <saferadius>100</saferadius>
+      <distanceradius>1</distanceradius>
+      <cleanupradius>200</cleanupradius>
+      <flags deletable="1" init_random="0" remove_damaged="0" />
+      <position>fixed</position>
+      <limit>child</limit>
+      <active>1</active>
+      <children>
+         <child type="Crumpet_Barrel_Red_Loot" lootmin="0" lootmax="0" min="2" max="2" />
+      </children>
+   </event>
+   <!-- WDS Barrel Event -->
+   <event name="ItemCrumpet_WDS_Barrel">
+      <nominal>4</nominal>
+      <min>4</min>
+      <max>4</max>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <saferadius>200</saferadius>
+      <distanceradius>1</distanceradius>
+      <cleanupradius>200</cleanupradius>
+      <flags deletable="1" init_random="0" remove_damaged="0" />
+      <position>fixed</position>
+      <limit>child</limit>
+      <active>1</active>
+      <children>
+         <child type="Crumpet_Barrel_Red_Loot" lootmin="0" lootmax="0" min="2" max="2" />
+      </children>
+   </event>
+   <!-- Bunker Barrel Event -->
+   <event name="ItemCrumpet_Bunker_Barrel">
+      <nominal>11</nominal>
+      <min>7</min>
+      <max>11</max>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <saferadius>200</saferadius>
+      <distanceradius>1</distanceradius>
+      <cleanupradius>200</cleanupradius>
+      <flags deletable="1" init_random="0" remove_damaged="0" />
+      <position>fixed</position>
+      <limit>child</limit>
+      <active>1</active>
+      <children>
+         <child type="Crumpet_Barrel_Red_Loot_LT" lootmin="0" lootmax="0" min="1" max="1" />
+      </children>
+   </event>
+   <!-- Abandoned convoy by MrCrumpet -->
+   <event name="StaticAbandoned">
+		<nominal>2</nominal>
+		<min>1</min>
+		<max>2</max>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<saferadius>1000</saferadius>
+		<distanceradius>1000</distanceradius>
+		<cleanupradius>1000</cleanupradius>
+		<secondary>InfectedArmy</secondary>
+		<flags deletable="1" init_random="0" remove_damaged="0"/>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children/>
+	</event>
+	<event name="InfectedKnights">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+		<children>
+			<child lootmax="5" lootmin="0" max="5" min="0" type="Berzerk_zmb_Orc"/>
+			<child lootmax="5" lootmin="0" max="5" min="0" type="ZmbM_HermitSkinny_Black"/>
+		</children>
+	</event>
+</events>

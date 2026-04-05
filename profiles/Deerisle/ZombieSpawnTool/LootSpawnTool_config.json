@@ -1,0 +1,88 @@
+{
+    "ModVersion": "1.0",
+    "ConfigVersion": 1,
+    "LootSpawnLocationData": [
+        {
+            "Label": "",
+            "SpawnOnZombieKill": "",
+            "MaxSpawnAmount": 0,
+            "MinSpawnAmount": 0,
+            "SpawnMaxRadius": 0.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 300,
+            "FirstSpawnDelaySeconds": 300,
+            "PlayerSafeDistance": 500.0,
+            "SpawnLocation": [
+                4440.080078125,
+                339.0119934082031,
+                10266.7998046875
+            ],
+            "LootToSpawn": [
+                {
+                    "LootContainerClassName": "SeaChest",
+                    "LootContainerInventory": [
+                        {
+                            "InventoryItemClassName": "AK74",
+                            "InventoryItemQuantityMin": 0,
+                            "InventoryItemQuantityMax": 0,
+                            "InventoryItemAttachments": [
+                                "AK74_Hndgrd",
+                                "AK74_WoodBttstck",
+                                "Mag_AK74_30Rnd"
+                            ]
+                        },
+                        {
+                            "InventoryItemClassName": "Ammo_762x39",
+                            "InventoryItemQuantityMin": 0,
+                            "InventoryItemQuantityMax": 0,
+                            "InventoryItemAttachments": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Label": "",
+            "SpawnOnZombieKill": "",
+            "MaxSpawnAmount": 0,
+            "MinSpawnAmount": 0,
+            "SpawnMaxRadius": 0.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 300,
+            "FirstSpawnDelaySeconds": 300,
+            "PlayerSafeDistance": 500.0,
+            "SpawnLocation": [
+                4460.080078125,
+                339.0119934082031,
+                10266.7998046875
+            ],
+            "LootToSpawn": [
+                {
+                    "LootContainerClassName": "SeaChest",
+                    "LootContainerInventory": [
+                        {
+                            "InventoryItemClassName": "AK74",
+                            "InventoryItemQuantityMin": 0,
+                            "InventoryItemQuantityMax": 0,
+                            "InventoryItemAttachments": [
+                                "AK74_Hndgrd",
+                                "AK74_WoodBttstck",
+                                "Mag_AK74_30Rnd"
+                            ]
+                        },
+                        {
+                            "InventoryItemClassName": "Ammo_762x39",
+                            "InventoryItemQuantityMin": 0,
+                            "InventoryItemQuantityMax": 0,
+                            "InventoryItemAttachments": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

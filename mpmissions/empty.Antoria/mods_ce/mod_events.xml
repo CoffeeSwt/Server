@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<events>
+<!-- Berzerk Events -->
+<event name="InfectedChimp">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpOld_Zmb"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="BZK_Chimp_Zmb"/>
+        </children>
+    </event>
+<event name="InfectedChimp2">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+           	<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpArmored1_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpArmored2_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpArmored3_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_Chimp_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpOld_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpRed_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_Gorilla_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_GorillaGiant_Zmb"/>
+		<child lootmax="5" lootmin="0" max="0" min="5" type="BZK_ChimpArmed_Zmb"/>
+        </children>
+    </event>
+	<!-- Horses modded -->
+<event name="AnimalWildHorse">
+        <nominal>10</nominal>
+        <min>4</min>
+        <max>9</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>250</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>600</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Gray"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Gray2"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Palomino"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Black"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_BlackWhiteSpot"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_BrownWhite"/>
+        </children>
+    </event>
+	
+	<!-- Vehicles modded -->	
+	<!-- MBM GoKarts Start -->
+	
+	<event name="VehicleGoKart">
+    <nominal>9</nominal>
+    <min>9</min>
+    <max>9</max>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <saferadius>1000</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>0</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Blue"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Red"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Green"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Orange"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Grey"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Hearts"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Splatter"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_BlueSplatter"/>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="MBM_GoKart_Camo"/>
+    </children>
+</event>
+
+</events>

@@ -1,0 +1,126 @@
+{
+    "IsActive": 1,
+    "StartDelayAfterRestart": 300000,
+    "Duration": 3600000,
+    "NumberOfPlayers": 60,
+    "NumberOfLevel": 1,
+    "IsLootActive": 1,
+    "IsWarningMsgActive": 1,
+    "WarningMsg": "Warning ! A Plane that contain a Nuke bomb is heading toward ! Run for your life !",
+    "IsGlobalWarningMsgActive": 1,
+    "GlobalWarningMsg": "Warning ! A Plane that contain a Nuke bomb is heading to: ",
+    "RadNukeMissionsAreaLocation": [
+        {
+            "RadZoneStatut": "nukeisland",
+            "X": 4371.342285,
+            "Y": 15387.215820,
+            "Radius": 600.0,
+            "NbSickGivenForRadiation": 90,
+            "Level": 1,
+            "IsMsgActive": 0,
+            "MsgEnterZone": "YOU ARE IN AN IRRADIATED AREA",
+            "MsgExitZone": "YOU'RE LEAVING AN IRRADIATED AREA",
+            "MsgAreaClean": "THIS AREA IS NO LONGER IRRADIATED",
+            "IsLootActive": 1,
+            "NukeWastesPosition": [
+                {
+                    "Name": "NukeCrater",
+                    "Pos": [
+                        4371.342285,
+                        16.259857,
+                        15387.215820
+                    ]
+                },
+                {
+                    "Name": "IrradiedDirtPile",
+                    "Pos": [
+                        4351.342285,
+                        16.269857,
+                        15387.215820
+                    ]
+                },
+                {
+                    "Name": "IrradiedDirtPile",
+                    "Pos": [
+                        4351.342285,
+                        15.269857,
+                        15407.215820
+                    ]
+                },
+                {
+                    "Name": "IrradiedDirtPile",
+                    "Pos": [
+                        4331.342285,
+                        14.859857,
+                        15407.215820
+                    ]
+                },
+                {
+                    "Name": "IrradiedDirtPile",
+                    "Pos": [
+                        4331.342285,
+                        15.559857,
+                        15367.215820
+                    ]
+                },
+                {
+                    "Name": "IrradiedDirtPile",
+                    "Pos": [
+                        4311.342285,
+                        14.259857,
+                        15407.215820
+                    ]
+                }
+            ],
+            "RewardsLocations": [
+                {
+                    "RZContainer": "RadiationCase",
+                    "RZMaxLoot": 10,
+                    "Name": "NukeCleaningReward",
+                    "POS": [
+                        4351.342285,
+                        15.259857,
+                        15407.215820
+                    ],
+                    "ORI": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "RZContainer": "RadiationCase",
+                    "RZMaxLoot": 10,
+                    "Name": "NukeCleaningReward",
+                    "POS": [
+                        4381.342285,
+                        15.259857,
+                        15407.215820
+                    ],
+                    "ORI": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "CreaturesLists": [
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",
+                    "Max": 7,
+                    "ProbToSpawn": 1.0
+                },
+                {
+                    "CreatureName": "Animal_UrsusArctos",
+                    "Max": 1,
+                    "ProbToSpawn": 1.0
+                },
+                {
+                    "CreatureName": "packboy",
+                    "Max": 8,
+                    "ProbToSpawn": 1.0
+                }
+            ]
+        }
+    ]
+}

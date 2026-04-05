@@ -1,0 +1,87 @@
+{
+    "DebugLogs_enabled": 0,
+    "Min_Anomalies_In_Map": 2,
+    "Max_Anomalies_In_Map": 2,
+    "AnomalyList": [
+        {
+            "Classname_Anomaly_Object": "teleport1",
+            "Anomaly_Position": [
+                9553.2587890625,
+                107.49250793457031,
+                9761.5
+            ],
+            "Anomaly_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Anomaly_MinActiveZoneBox": [
+                -3.0,
+                -3.0,
+                -3.0
+            ],
+            "Anomaly_MaxActiveZoneBox": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "Anomaly_TeleportToPositions": [
+                [
+                    16248.5400390625,
+                    41.135318756103519,
+                    16488.66796875
+                ],
+                [
+                    16249.5400390625,
+                    41.135318756103519,
+                    16489.66796875
+                ],
+                [
+                    16250.5400390625,
+                    41.135318756103519,
+                    16450.66796875
+                ]
+            ]
+        },
+        {
+            "Classname_Anomaly_Object": "teleport1",
+            "Anomaly_Position": [
+                16197.900390625,
+                42.0,
+                16692.5
+            ],
+            "Anomaly_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Anomaly_MinActiveZoneBox": [
+                -3.0,
+                -3.0,
+                -3.0
+            ],
+            "Anomaly_MaxActiveZoneBox": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "Anomaly_TeleportToPositions": [
+                [
+                    1641.0999755859376,
+                    47.20000076293945,
+                    6606.89990234375
+                ],
+                [
+                    1644.0999755859376,
+                    47.20000076293945,
+                    6606.89990234375
+                ],
+                [
+                    1645.0999755859376,
+                    47.20000076293945,
+                    6606.89990234375
+                ]
+            ]
+        }
+    ]
+}

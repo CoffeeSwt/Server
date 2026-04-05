@@ -1,0 +1,49 @@
+	<types>	<!-- Soda -->
+	<type name="SodaCan_Irn_Bru">
+      <nominal>20</nominal>
+      <lifetime>14400</lifetime>
+      <restock>0</restock>
+      <min>15</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="food" />
+      <usage name="Pub"/>
+      <value name="Tier1" />
+      <value name="Tier2" />
+      </type>
+      <type name="Antoria_AntiRadPills">
+      <nominal>20</nominal>
+      <lifetime>14400</lifetime>
+      <restock>0</restock>
+      <min>10</min>
+      <quantmin>10</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="tools" />
+      <tag name="shelves" />
+      <usage name="Town" />
+      <usage name="Medic" />
+   </type>
+   <type name="Picklez_Pickles">
+      <nominal>10</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>0</quantmin>
+      <quantmax>100</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="food" />
+      <tag name="shelves" />
+      <usage name="Hunting" />
+      <usage name="Office" />
+      <usage name="School" />
+      <value name="Tier1" />
+      <value name="Tier2" />
+      <value name="Tier3" />
+      <value name="Tier4" />
+   </type>
+	</types>

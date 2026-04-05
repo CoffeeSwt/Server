@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<types>
+
+<!-- Sherpa Attachments Start -->
+    <type name="SherpaSteeringWheel">
+        <nominal>7</nominal>
+        <min>6</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="Sherpa_RearBag">
+        <nominal>8</nominal>
+        <min>7</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="Sherpa_Scabbard">
+        <nominal>8</nominal>
+        <min>7</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="Sherpa_TwoCycleOil_Bottle">
+        <nominal>8</nominal>
+        <min>7</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+<!-- Sherpa Attachments End -->
+
+<!-- Sherpa Helmets Start -->
+    <type name="Sherpa_Helmet_Black">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <usage />
+        <value />
+        <category name="clothes" />
+        <tag name="civilian" />
+    </type>
+    <type name="Sherpa_Helmet_Grey">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <usage />
+        <value />
+        <category name="clothes" />
+        <tag name="civilian" />
+    </type>
+    <type name="Sherpa_Helmet_Red">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <usage />
+        <value />
+        <category name="clothes" />
+        <tag name="civilian" />
+    </type>
+    <type name="Sherpa_Helmet_Pink">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <usage />
+        <value />
+        <category name="clothes" />
+        <tag name="civilian" />
+    </type>
+    <type name="Sherpa_Helmet_Carbonfiber">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <usage />
+        <value />
+        <category name="clothes" />
+        <tag name="civilian" />
+    </type>
+<!-- Sherpa Helmets End -->
+
+<!-- Sherpa Standard Variants Start -->
+    <type name="SavageSherpa">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Black">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Black_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Blue">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Blue_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Brown">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Brown_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Green">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Green_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Mint">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Mint_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Pink">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Pink_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Purple">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Purple_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Red">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Red_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Savage">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Savage_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_Yellow">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Yellow_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+    <type name="SavageSherpa_White">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_White_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+<!-- Sherpa Standard Variants End -->
+
+<!-- Sherpa Cargo Variants Start -->
+    <type name="SavageSherpa_Cargo">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Cargo_hood">
+        <nominal>3</nominal>
+        <min>2</min>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools" />
+        <usage name="Industrial" />
+    </type>
+<!-- Sherpa Cargo Variants End -->
+
+<!-- Sherpa Sport Variants Start -->
+    <type name="SavageSherpa_Sport_Black">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_Blue">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_Red">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_DeepRed">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_Pink">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_Purple">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_White">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="SavageSherpa_Sport_DiamondCut">
+        <nominal>0</nominal>
+        <min>0</min>
+        <lifetime>1209600</lifetime>
+        <restock>1800</restock>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+<!-- Sherpa Sport Variants End -->
+
+</types>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventgroupdef>
+<!-- StaticAirplaneCrateBN1 Group -->
+<group name="StaticAirplaneCrateBN1">
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmin="4" lootmax="4" x="0" z="0" a="0" y="0.0"/>
+</group>
+
+    <!-- Group for base MilitaryCase (not strictly needed since event spawns it directly) -->
+    <group name="ItemCrumpet_Endgame_Barrel">
+        <child type="Crumpet_Barrel_Red_Loot" deloot="0" lootmax="20" lootmin="8" x="0" z="0" a="0" y="0.0"/>
+    </group>
+    <!-- Groups for each variant crate -->
+    <group name="ItemCrumpet_WDS_Barrel">
+        <child type="Crumpet_Barrel_Red_Loot" deloot="0" lootmax="20" lootmin="8" x="0" z="0" a="0" y="0.0"/>
+    </group>
+
+    <group name="ItemCrumpet_Bunker_Barrel">
+        <child type="Crumpet_Barrel_Red_Loot_LT" deloot="0" lootmax="20" lootmin="8" x="0" z="0" a="0" y="0.0"/>
+    </group>
+    
+    <!-- Snowmobile -->	
+    <group name="ItemCrumpet_Bunker_Barrel">
+        <child type="Crumpet_Barrel_Red_Loot_LT" deloot="0" lootmax="20" lootmin="8" x="0" z="0" a="0" y="0.0"/>
+    </group>
+	
+    
+
+<!--<pos x="16626.7" z="2468.86" a="0" y="152.268" /> group="Train_Abandoned_Midway"/-->
+<group name="Train_Abandoned_Midway">
+    <!-- This is the reference point with original coordinates mentioned in the comment above, make sure the X and Z coordinates for the parent object are 0 here. -->
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0.0"/>
+
+    <!-- Relative positions from the parent for other child objects -->
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.1" z="-32.39" a="-0.5" y="-1.729"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.5" z="-89.44" a="-0.3" y="-1.718"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.4" z="-72.24" a="0" y="-1.719"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.2" z="-46.61" a="-0.5" y="-0.352"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.3" z="-57.92" a="-0.5" y="-0.352"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.6" z="-103.68" a="-0.3" y="-0.334"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.8" z="-114.99" a="-0.4" y="-0.334"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.0" z="-15.22" a="-0.5" y="-1.724"/>
+    <child type="Land_Wreck_V3S_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.5" z="-88.56" a="0" y="0.618"/>
+    <child type="Land_Wreck_offroad02_aban2_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.1" z="-34.58" a="0" y="0.648"/>
+    <child type="Land_Wreck_offroad02_aban2_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.0" z="-29.62" a="0" y="0.648"/>
+</group>
+
+<!--<pos x="16626.7" z="2468.86" a="0" y="152.268" /> group="Train_Abandoned_Mil_Midway"/-->
+<group name="Train_Abandoned_Mil_Midway">
+    <!-- This is the reference point with original coordinates mentioned in the comment above, make sure the X and Z coordinates for the parent object are 0 here. -->
+    <child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0.0"/>
+
+    <!-- Relative positions from the parent for other child objects -->
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.1" z="-32.39" a="-0.5" y="-1.729"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.5" z="-89.44" a="-0.3" y="-1.718"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.4" z="-72.24" a="0" y="-1.719"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.2" z="-46.61" a="-0.5" y="-0.352"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.3" z="-57.92" a="-0.5" y="-0.352"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.6" z="-103.68" a="-0.3" y="-0.334"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.8" z="-114.99" a="-0.4" y="-0.334"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.0" z="-15.22" a="-0.5" y="-1.724"/>
+    <child type="Land_Wreck_V3S_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.5" z="-88.56" a="0" y="0.618"/>
+    <child type="Land_Wreck_offroad02_aban2_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.1" z="-34.58" a="0" y="0.648"/>
+    <child type="Land_Wreck_offroad02_aban2_DE" deloot="0" lootmax="3" lootmin="1" 
+        x="0.0" z="-29.62" a="0" y="0.648"/>
+</group>
+
+
+<!-- Parent: StaticObj_Wreck_Train_742_Blue_Mil_DE pos: 6220.579590 210.978928 2515.932129 orientation: 116.999947 0.000000 -0.000000 -->
+<!--<pos x="6220.579590" z="2515.932129" a="0" y="210.978928" group="Train_Military_Boundry"/>-->
+<group name="Train_Military_Boundry">
+	<child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="116.999947"/>
+	<child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-13.5522" z="6.9617" y="-1.7549" a="116.5"/>
+	<child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-28.9487" z="14.6047" y="-1.7659" a="296.599995"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-42.0010" z="21.2021" y="-0.5323" a="297.000027"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-52.8169" z="26.6506" y="-0.5319" a="296.700008"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-63.6240" z="32.0510" y="-0.5319" a="296.700008"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-76.7490" z="38.5984" y="-1.7465" a="296.800011"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-92.1045" z="46.3071" y="-1.7389" a="296.800011"/>
+	<child type="Land_Wreck_V3S_DE" deloot="0" lootmax="3" lootmin="1" x="-12.4595" z="6.2478" y="0.5731" a="297"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-105.2451" z="52.9102" y="-0.5819" a="296.200005"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-116.1494" z="57.8884" y="-0.5819" a="293.399994"/>
+	<child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-127.2896" z="62.3923" y="-0.5819" a="291.400002"/>
+	<child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-139.9277" z="66.8694" y="0.0301" a="108.999985"/>
+</group>
+<!-- Parent: StaticObj_Wreck_Train_742_Blue_Mil_DE pos: 6220.579590 210.978928 2515.932129 orientation: 116.999947 0.000000 -0.000000 -->
+<!--<pos x="6220.579590" z="2515.932129" a="0" y="210.978928" group="Train_Military_Boundry"/>-->
+<group name="Train_Abandoned_Boundry">
+	<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" y="0" a="116.999947"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-13.5522" z="6.9617" y="-1.7549" a="116.5"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-28.9487" z="14.6047" y="-1.7659" a="296.599995"/>
+	<child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-42.0010" z="21.2021" y="-0.5323" a="297.000027"/>
+	<child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-52.8169" z="26.6506" y="-0.5319" a="296.700008"/>
+	<child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-63.6240" z="32.0510" y="-0.5319" a="296.700008"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-76.7490" z="38.5984" y="-1.7465" a="296.800011"/>
+	<child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-92.1045" z="46.3071" y="-1.7389" a="296.800011"/>
+	<child type="Land_Wreck_V3S_DE" deloot="0" lootmax="3" lootmin="1" x="-12.4595" z="6.2478" y="0.5731" a="297"/>
+	<child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="1" x="-105.2451" z="52.9102" y="-0.5819" a="296.200005"/>
+	<child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="1" x="-116.1494" z="57.8884" y="-0.5819" a="293.399994"/>
+	<child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="1" x="-127.2896" z="62.3923" y="-0.5819" a="291.400002"/>
+	<child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="-139.9277" z="66.8694" y="0.0301" a="108.999985"/>
+</group>
+
+
+<!--  BIG ABANDONED CONVOY  (shared by every Antoria location) -->
+<group name="Abandoned_Antoria_Large01">
+    <zone smin="0" smax="0" dmin="1" dmax="1" r="100"/>
+
+    <!-- 11 vanilla-DE wrecks (works on any server) -->
+    <child type="Land_Wreck_V3S_DE"                 deloot="1" lootmin="2" lootmax="4" x="0"   z="0"   a="12"/>
+    <child type="StaticObj_Wreck_Ural_DE"           deloot="1" lootmin="2" lootmax="4" x="18"  z="-4"  a="10"/>
+    <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmin="2" lootmax="4" x="37"  z="-8"  a="8"/>
+    <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmin="2" lootmax="4" x="56"  z="-12" a="5"/>
+    <child type="Land_Wreck_offroad02_aban2_DE"     deloot="1" lootmin="2" lootmax="3" x="-9"  z="7"   a="95"/>
+    <child type="Land_Wreck_offroad02_aban1_DE"     deloot="1" lootmin="2" lootmax="3" x="12"  z="13"  a="100"/>
+    <child type="StaticObj_Wreck_Uaz_DE"            deloot="1" lootmin="2" lootmax="3" x="48"  z="19"  a="100"/>
+    <child type="StaticObj_Wreck_BMP2_DE"           deloot="1" lootmin="2" lootmax="4" x="70"  z="-18" a="2"/>
+    <child type="StaticObj_Wreck_T72_Chassis_DE"    deloot="1" lootmin="3" lootmax="5" x="85"  z="-20" a="0"/>
+    <child type="StaticObj_Wreck_BRDM_DE"           deloot="1" lootmin="2" lootmax="3" x="92"  z="6"   a="92"/>
+    <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmin="2" lootmax="4" x="98" z="22" a="96"/>
+
+    <!-- decals -->
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-1"  z="-1"  a="0"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="20"  z="-3"  a="350"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="41"  z="-9"  a="5"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="62"  z="-15" a="12"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="83"  z="-21" a="7"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="88"  z="10"  a="102"/>
+
+    <!-- loot crates -->
+    <child type="StaticObj_Misc_SupplyBox2_DE" x="10" z="-2"  y="0.3" min="1" max="1"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" x="45" z="-8"  y="0.3" min="1" max="1"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" x="72" z="-14" y="0.3" min="0" max="2"/>
+</group>
+</eventgroupdef>

@@ -1,0 +1,7 @@
+{
+    "ConfigVersion": "1",
+    "TemperatureCoef": 2.5,
+    "WetPenaltyCoef": 4.199999809265137,
+    "DryScale": 6.0,
+    "WetScale": 6.0
+}

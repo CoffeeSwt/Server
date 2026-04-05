@@ -1,0 +1,110 @@
+{
+    "RZListSlotProtection": [
+        {
+            "SlotName": "Mask",
+            "ListProtections": [
+                {
+                    "ClotheName": "GP5GasMask",
+                    "Protection": 0
+                },
+                {
+                    "ClotheName": "CustomGP5GasMask",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "GasMask",
+                    "Protection": 0
+                }
+            ]
+        },
+        {
+            "SlotName": "Headgear",
+            "ListProtections": [
+                {
+                    "ClotheName": "NBCHoodBase",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCHoodGray",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCHoodWhite",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCHoodYellow",
+                    "Protection": 1
+                }
+            ]
+        },
+        {
+            "SlotName": "Body",
+            "ListProtections": [
+                {
+                    "ClotheName": "NBCJacketBase",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCJacketGray",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCJacketYellow",
+                    "Protection": 1
+                }
+            ]
+        },
+        {
+            "SlotName": "Gloves",
+            "ListProtections": [
+                {
+                    "ClotheName": "NBCGloves_ColorBase",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCGlovesGray",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCGlovesYellow",
+                    "Protection": 1
+                }
+            ]
+        },
+        {
+            "SlotName": "Legs",
+            "ListProtections": [
+                {
+                    "ClotheName": "NBCPantsBase",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCPantsGray",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCPantsYellow",
+                    "Protection": 1
+                }
+            ]
+        },
+        {
+            "SlotName": "Feet",
+            "ListProtections": [
+                {
+                    "ClotheName": "NBCBootsBase",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCBootsWhite",
+                    "Protection": 1
+                },
+                {
+                    "ClotheName": "NBCBootsYellow",
+                    "Protection": 1
+                }
+            ]
+        }
+    ]
+}

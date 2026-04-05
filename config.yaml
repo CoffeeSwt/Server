@@ -1,12 +1,10 @@
-server_name: "Namalsk" # 服务器名称
+server_name: "Deerisle" # 服务器名称
 port: 6969 # 端口号
-mission: "hardcore.namalsk" # 地图任务
+mission: "empty.deerisle" # 地图任务
 client_mods: [
     "@CF",
-    "@Namalsk Island",
-    "@Namalsk Survival",
-    "@Code Lock",
-    "@Ear-Plugs",
+    "@DeerIsle",
+    "@Dabs Framework",
     "@Inventory Move Sounds",
     "@SkyZ - Skybox Overhaul",
     "@VPPAdminTools",
@@ -23,14 +21,18 @@ client_mods: [
     "@Name Restrictor",
     "@Helicopter Mod",
     "@WindstridesClothingPack",
-    "@DF-Test",
-    "@Simple Cinematics",
-    "@Treasure",
-    "@TreasurePhotosNamalsk",
     "@DayZ-Expansion-Core",
     "@DayZ-Expansion-Licensed",
     "@DayZ-Expansion-Animations",
     "@DayZ-Expansion-Vehicles",
     "@Increased Lumens",
+    "@Early Winter or late Fall in Chernarus",
+    "@Early Winter or Late Fall Livonia",
+    "@Snowy Trees for Early Winter Late Fall",
+    "@Namalsk Survival",
+    "@Realistic Walking Sounds",
+    "@Lad's Lighting Overhaul",
+    "@DZR Rags by hands",
+    "@Basic Map",
   ] # 客户端模组
-server_mods: ["@heli_server"] # 服务器模组
+server_mods: ["@heli_server", "@ZombieSpawnTool"] # 服务器模组

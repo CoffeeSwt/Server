@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+
+<!-- MBM GoKart Spawnabletypes -->
+    <type name="MBM_GoKart_Blue">
+	    <attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Red">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Green">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+        <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Orange">
+	    <attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Grey">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Hearts">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Splatter">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Black" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_BlueSplatter">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Yellow" chance="1.00" />
+        </attachments>
+    </type>
+    
+    <type name="MBM_GoKart_Camo">
+		<attachments chance="1.00">
+		<item name="CarBattery" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="MBM_GoKart_wheel_Red" chance="1.00" />
+        </attachments>
+    </type>
+
+
+</spawnabletypes>

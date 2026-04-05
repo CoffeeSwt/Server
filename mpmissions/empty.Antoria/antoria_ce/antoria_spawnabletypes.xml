@@ -1,0 +1,1750 @@
+<spawnabletypes>
+	<!-- Titan_Exoskeleton -->
+	<type name="TitanSuit">
+		<!-- change this for the items to spawn with random health -->
+		<damage min="0.0" max="0.0"/>
+			<!-- change this when you want to lower the attachment chance -->
+		<attachments chance="1.00">
+			<!-- change this when you want to lower the specific item chance -->
+			<item name="Titan_Bag" chance="0.0"/>
+		</attachments>
+			<!-- change this when you want to lower the attachment chance -->
+		<attachments chance="1.00">
+			<!-- change this when you want to lower the specific item chance -->
+			<item name="Titan_Battery" chance="0.0"/>
+		</attachments>
+	</type>
+	<!-- Packboy: rare keycard drops -->
+<type name="packboy">
+  <cargo chance="0.25">
+    <item name="Antoria_KeyCard"         chance="0.2" /> 
+    <item name="fmdpk_landingpad_key_1"  chance="0.2" />
+    <item name="fmdpk_landingpad_key_2"  chance="0.2" />
+    <item name="fmdpk_landingpad_key_3"  chance="0.2" />
+    <item name="fmdpk_landingpad_key_4"  chance="0.1" />
+    <item name="fmdpk_landingpad_key_5"  chance="0.1" />
+  </cargo>
+</type>
+<!-- Kids -->
+	<type name="ZmbM_SkaterYoung_Blue_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	
+	<!-- Weapons -->
+	<!--walther-->
+   <type name="Multi_WaltherPistol">
+      <attachments chance="1.00">
+         <item name="PistolSuppressor" chance="0.5" />
+         <item name="Mag_IJ70_8Rnd" chance="1.0" />
+      </attachments>
+   </type>
+   <!--PNC-->
+   <type name="PNC_Anzio">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AUGA3">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15_Long">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="1.00" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15_Long_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="1.00" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15_Long_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="1.00" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15_Long_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="1.00" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15_Long_black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="1.00" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15Skeleton">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AR15Skeleton_black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Ash127">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_ASh127_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Ash127_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_ASh127_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Aurora">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Aurora_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_Aurora_5Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AWM">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AWM_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AWM_Sand">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AWM_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AWM_Snow">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AWM_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AWM_Black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AWM_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AX50_2">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_65_Creedmore" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AX50_2_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AX50_2_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_65_Creedmore" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AX50_2_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AX50_2_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_65_Creedmore" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AX50_2_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_BarretM82A1">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_BarretM82A1_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_BarretM82A1_Black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor_black" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_BarretM82A1_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_BarretM82A1_Desert">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor_desert" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_BarretM82A1_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_BarretM82A1_Snow">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor_snow" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_BarretM82A1_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Beowulf50">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_Beowulf50_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Beowulf50_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2_camo" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_Beowulf50_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Beowulf50_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2_kryp" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_Beowulf50_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Beowulf50_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2_hive" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_Beowulf50_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_CheytacM300">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_408_CheyTac" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_CheyTacM300_7rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_DVL10">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_DVL_10rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Famas">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.25" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.25" />
+         <item name="PNC_Famas_Mag" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Fal">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Fal_OeBttstckWooden" chance="0.50" />
+         <item name="Fal_OeBttstck" chance="0.25" />
+         <item name="Fal_FoldingBttstck" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Fal_WoodenHndgrd" chance="0.25" />
+         <item name="PNC_Fal_PlasticHndgrd" chance="0.25" />
+         <item name="PNC_Fal_RISHndgrd" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Fal_Compensator" chance="0.50" />
+         <item name="PNC_Fal_Compensator_2" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.50" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck_tan" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger_black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck_camo" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger_camo2">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck_camo2" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger_kry">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck_kryp" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_HoneyBadger_kitty">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Bttstck_kitty" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_HoneyBadger_Suppressor_01" chance="0.50" />
+         <item name="PNC_HoneyBadger_Suppressor_02" chance="0.25" />
+         <item name="PNC_HoneyBadger_Suppressor_03" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_HoneyBadger_30Rnd" chance="0.50" />
+         <item name="PNC_Mag_HoneyBadger_Coupled_60Rnd" chance="0.25" />
+         <item name="PNC_Mag_HoneyBadger_60Rnd" chance="0.25" />
+      </attachments>
+   </type>
+   <type name="PNC_W_KIVAARI">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_KIVAARI_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_KIVAARI_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck_camo" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_KIVAARI_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_KIVAARI_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck_hive" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_KIVAARI_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_KIVAARI_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck_kryp" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_KIVAARI_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_KIVAARI_black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_KIVAARI_10Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_M14">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PUScopeOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.50" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_ORSIST5000">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_ORSIST5000_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_PKP">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_PKP_200Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RemingtonMSR">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_RemingtonMSR_5rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RemingtonR5">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RemingtonR5_tan">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCAR">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCAR_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCAR_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCAR_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCAR_pixel">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SCARH">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_SCARH_20Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_ScarH_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_SCARH_20Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_ScarH_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_SCARH_20Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_ScarH_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_SCARH_20Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_ScarH_pixel">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_SCARH_20Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_SuperSniper">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_65_Creedmore_Green" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_SuperSniper_20Rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_VR80">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_VR80_5Rnd" chance="0.50" />
+         <item name="PNC_Mag_VR80_10Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AEK971">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AEK971butt" chance="0.10" />
+         <item name="PNC_RPK16_butt" chance="0.10" />
+         <item name="AK74_WoodBttstck" chance="0.10" />
+         <item name="AK_FoldingBttstck" chance="0.10" />
+         <item name="AK_PlasticBttstck" chance="0.10" />
+         <item name="AKS74U_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="0.50" />
+         <item name="AK_Suppressor" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="KashtanOptic" chance="0.20" />
+         <item name="PSO1Optic" chance="0.20" />
+         <item name="PSO11Optic" chance="0.20" />
+         <item name="KobraOptic" chance="0.20" />
+         <item name="KazuarOptic" chance="0.20" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Drum" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AN94Abakan">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AEK971butt" chance="0.10" />
+         <item name="PNC_RPK16_butt" chance="0.10" />
+         <item name="AK74_WoodBttstck" chance="0.10" />
+         <item name="AK_FoldingBttstck" chance="0.10" />
+         <item name="AK_PlasticBttstck" chance="0.10" />
+         <item name="AKS74U_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="0.50" />
+         <item name="AK_Suppressor" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="KashtanOptic" chance="0.20" />
+         <item name="PSO1Optic" chance="0.20" />
+         <item name="PSO11Optic" chance="0.20" />
+         <item name="KobraOptic" chance="0.20" />
+         <item name="KazuarOptic" chance="0.20" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Drum" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_AX50">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_BarretM82A1_Suppressor_desert" chance="0.50" />
+         <item name="PNC_BarretM82A1_Suppressor_black" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Mag_AX50_7rnd" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_G36">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_G36_camo">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_G36_hive">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_G36_kryp">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_556mm" chance="0.50" />
+         <item name="PNC_Suppressor_556mm_2" chance="0.25" />
+         <item name="M4_Suppressor" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_M4Drum_60Rnd" chance="0.50" />
+         <item name="PNC_MoreMag_M4Drum_100Rnd" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_M110">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.50" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.10" />
+         <item name="PNC_Origin_Bttstck" chance="0.10" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.10" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.25" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.25" />
+         <item name="PNC_M110_Mag" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_M200Cheytac">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_408_CheyTac" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_M200_Mag" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_M60">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_M60_Mag" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Origin_12ga">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AR15Bttstck" chance="0.10" />
+         <item name="PNC_AR15Bttstck_2" chance="0.10" />
+         <item name="PNC_M110Butt" chance="0.10" />
+         <item name="PNC_Origin_sopmodBttstck" chance="0.30" />
+         <item name="PNC_Origin_Bttstck" chance="0.30" />
+         <item name="PNC_KIVAARI_Bttstck" chance="0.10" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_12ga" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_ORIGIN_Mag" chance="0.50" />
+         <item name="PNC_ORIGIN_Drum_Mag" chance="0.50" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RPK16_Black">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AEK971butt" chance="0.10" />
+         <item name="PNC_RPK16_butt" chance="0.10" />
+         <item name="AK74_WoodBttstck" chance="0.10" />
+         <item name="AK_FoldingBttstck" chance="0.10" />
+         <item name="AK_PlasticBttstck" chance="0.10" />
+         <item name="AKS74U_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Handguard_black" chance="0.25" />
+         <item name="PNC_RPK16_Handguard_VLTOR_black" chance="0.25" />
+         <item name="AK_RailHndgrd" chance="0.25" />
+         <item name="AK_PlasticHndgrd" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="0.50" />
+         <item name="AK_Suppressor" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Drum" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RPK16_Green">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AEK971butt" chance="0.10" />
+         <item name="PNC_RPK16_butt" chance="0.10" />
+         <item name="AK74_WoodBttstck" chance="0.10" />
+         <item name="AK_FoldingBttstck" chance="0.10" />
+         <item name="AK_PlasticBttstck" chance="0.10" />
+         <item name="AKS74U_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Handguard_green" chance="0.25" />
+         <item name="PNC_RPK16_Handguard_VLTOR_black" chance="0.25" />
+         <item name="AK_RailHndgrd" chance="0.25" />
+         <item name="AK_PlasticHndgrd" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="0.50" />
+         <item name="AK_Suppressor" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Drum" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_RPK16_Tan">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_AEK971butt" chance="0.10" />
+         <item name="PNC_RPK16_butt" chance="0.10" />
+         <item name="AK74_WoodBttstck" chance="0.10" />
+         <item name="AK_FoldingBttstck" chance="0.10" />
+         <item name="AK_PlasticBttstck" chance="0.10" />
+         <item name="AKS74U_Bttstck" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Handguard_tan" chance="0.25" />
+         <item name="PNC_RPK16_Handguard_VLTOR_black" chance="0.25" />
+         <item name="AK_RailHndgrd" chance="0.25" />
+         <item name="AK_PlasticHndgrd" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_762x39mm_Legion" chance="0.50" />
+         <item name="AK_Suppressor" chance="0.50" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_RPK16_Drum" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_Tac21">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_338" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_TAC21_Mag" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_VSSK_Vychlop">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="HuntingOptic" chance="1.00" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_VSSK_Mag" chance="1.00" />
+      </attachments>
+   </type>
+   <type name="PNC_W_MK14">
+      <damage min="0.0" max="0.0" />
+      <attachments chance="1.00">
+         <item name="PNC_Suppressor_308Win" chance="0.50" />
+         <item name="PNC_Fal_Compensator" chance="0.25" />
+         <item name="PNC_Fal_Compensator_2" chance="0.25" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="M4_CarryHandleOptic" chance="0.13" />
+         <item name="BUISOptic" chance="0.13" />
+         <item name="M68Optic" chance="0.12" />
+         <item name="M4_T3NRDSOptic" chance="0.12" />
+         <item name="ReflexOptic" chance="0.12" />
+         <item name="ACOGOptic" chance="0.12" />
+         <item name="ACOGOptic_6x" chance="0.12" />
+         <item name="StarlightOptic" chance="0.12" />
+      </attachments>
+      <attachments chance="1.00">
+         <item name="PNC_MoreMag_FAL_20RndCoupledClam" chance="0.50" />
+         <item name="PNC_MoreMag_FAL_50Rnd" chance="0.50" />
+      </attachments>
+   </type>
+	<!-- Berzerk spawnable types -->
+	<type name="Berzerk_zmb_DemonPriest">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_DemonGirl1">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns2" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_DemonGirl2">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns2" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_CaptainSpaulding">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_Underground_Hermit">
+	<cargo preset="foodVillage"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<!--Berzerk Zombie Knights Start-->
+
+	<!--Zombie Knights Orcs-->
+	<type name="Berzerk_zmb_Orc">
+		<cargo chance="0.50">
+			<item name="BZK_UrukKnight_Boots" chance="0.33"/>
+			<item name="BZK_UrukKnight_Arms" chance="0.33"/>
+			<item name="HumanSteakMeat" chance="0.33"/>
+		</cargo>
+		<attachments chance="1.00">
+			<item name="OrcHelm1" chance="0.125"/>
+			<item name="OrcHelm2" chance="0.125"/>
+			<item name="OrcHelm3" chance="0.125"/>
+			<item name="OrcHelm4" chance="0.125"/>
+			<item name="OrcHelm5" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Berserk" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Uruk1" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Uruk2" chance="0.125"/>
+		</attachments>
+		<attachments chance="0.5">
+			<item name="Chestplate" chance="0.5"/>
+			<item name="BZK_UrukKnight_Chestplate" chance="0.5"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BZK_KnightShouldersSpikes" chance="1.00"/>
+        </attachments>
+	</type>
+	
+	
+	<!--Vanilla Knights-->
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo chance="0.10">
+			<item name="Chainmail_Coif" chance="0.33"/>
+			<item name="MedievalBoots" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Pants" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Boots" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Arms" chance="0.33"/>
+			<item name="BZK_vagrantknight_belt" chance="0.33"/>
+		</cargo>
+        <attachments chance="1.00">
+            <item name="NorseHelm" chance="0.33"/>
+            <item name="BZK_VagrantKnight_Helmet" chance="0.33"/>
+            <item name="BZK_HornedKnight_Helmet" chance="0.33"/>
+        </attachments>
+        <attachments chance="0.2">
+            <item name="Chestplate" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.2">
+            <item name="BZK_Vagrant_Shieldpack" chance="0.5"/>
+            <item name="BZK_BackShield1_Backpack" chance="0.5"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Zombie_Chainmail" chance="1.00"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Zombie_Chainmail_Leggings" chance="1.00"/>
+        </attachments>
+    </type>
+	
+	
+	<!--Example of how to make zombie clothes always ruined so players can't loot them-->	
+	<type name="BZK_KnightShouldersSpikes">
+		<damage min="1.00" max="1.00" />
+	</type>	
+	<type name="Zombie_Chainmail_Leggings">
+		<damage min="1.00" max="1.00" />
+	</type>	
+	<type name="Zombie_Chainmail">
+		<damage min="1.00" max="1.00" />
+	</type>
+	<!--End Zombie Knights-->
+</spawnabletypes>

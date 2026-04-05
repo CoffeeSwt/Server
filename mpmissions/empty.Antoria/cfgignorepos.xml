@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<map>
+    <!-- This file is specific to VYKIX and allows you to remove buildings from mapgrouppos.xml. -->
+    <!-- This can be useful if you want to clear a building of its loot. (For example, when it's in a safezone). -->
+</map>

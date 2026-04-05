@@ -1,0 +1,1884 @@
+<types>	
+<!-- Revolver -->
+   <type name="Ant_Revolver">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>1800</restock>
+      <min>0</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+   <type name="Ant_Revolver_White">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>1800</restock>
+      <min>0</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+   <type name="Ant_Revolver_Pink">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>1800</restock>
+      <min>0</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+	<!-- AK -->	
+       <type name="AK47">
+		<nominal>8</nominal>
+		<lifetime>7</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5" />
+		<value name="Tier6" />
+	</type>
+      <type name="AK47_Mag_50rnd">
+		<nominal>8</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+	<value name="Tier5" />
+		<value name="Tier6" />
+	</type>
+      <type name="AK47_Mag_30rnd">
+		<nominal>8</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+	<value name="Tier5" />
+		<value name="Tier6" />
+	</type>
+	<!-- Walther -->
+   <type name="Multi_WaltherPistol">
+      <nominal>15</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>0</quantmin>
+      <quantmax>0</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Police" />
+      <value name="Tier4" />
+   </type>
+   <!-- PNC Weapon types -->
+	<type name="PNC_Suppressor_408_Cheytac">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Suppressor_556mm">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Suppressor_556mm_2">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Aurora_Suppressor">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_BarretM82A1_Suppressor">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_BarretM82A1_Suppressor_black">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_BarretM82A1_Suppressor_desert">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Suppressor_338">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Fal">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AEK971">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_MK14">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_VSSK_Mag">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Origin_12ga">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+	<value name="Tier5" />
+	<value name="Tier6" />
+   </type>
+   <type name="PNC_W_M110">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_VSSK_Vychlop">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+	<value name="Tier5" />
+	<value name="Tier6" />
+   </type>
+   <type name="PNC_W_M200Cheytac">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_M110_Mag">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_VR80">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Mag_VR80_5rnd">
+      <nominal>13</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Police" />
+   </type>
+   <type name="PNC_Mag_VR80_10rnd">
+      <nominal>13</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Police" />
+   </type>
+   <type name="PNC_Mag_PKP_200Rnd">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_PKP">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AUGA3">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RPK16_Black">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RPK16_Green">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RPK16_Tan">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_SCAR">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AR15_Long">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AR15_Long_camo">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AR15_Long_kryp">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AR15_Long_hive">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AR15Skeleton">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_SCARH">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger_black">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger_camo">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger_camo2">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger_kry">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_HoneyBadger_kitty">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Beowulf50">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Beowulf50_camo">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Beowulf50_kryp">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Beowulf50_hive">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Ash127">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Aurora">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Ash127_camo">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_M60">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AX50_2">
+      <nominal>8</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AX50_2_camo">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AX50_2_hive">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_SuperSniper">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Famas">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RemingtonMSR">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RemingtonR5">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RemingtonR5_tan">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_Tac21">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_ORSIST5000">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AWM">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AWM_Sand">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_KIVAARI">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_KIVAARI_camo">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_KIVAARI_hive">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_KIVAARI_kryp">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_CheytacM300">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_AX50">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_BarretM82A1">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_BarretM82A1_Black">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_BarretM82A1_Desert">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_DVL10">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_Mag_DVL_10Rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_65Creedmore_20Rnd">
+      <nominal>20</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>9</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Police" />
+      <value name="Tier4" />
+      <value name="Tier3" />
+      <value name="Tier2" />
+   </type>
+   <type name="PNC_MoreMag_Val_20RndCoupledClamp">
+      <nominal>14</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>6</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_MoreMag_Fal_50Rnd">
+      <nominal>8</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_MoreMag_Fal_20RndCoupledClamp">
+      <nominal>15</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>8</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_MoreMag_M4Drum_100Rnd">
+      <nominal>8</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_Compensator_1">
+      <nominal>6</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>3</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_Compensator_2">
+      <nominal>8</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_RISHndgrd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_PlasticHndgrd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_WoodenHndgrd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Suppressor_762x39mm_Legion">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_MoreMag_CMAG_30Rnd_Banana">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_MoreMag_M4Drum_60Rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Origin_Drum_Mag">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Origin_Mag">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_RPK16_Drum">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_Aurora_5Rnd">
+      <nominal>2</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Famas_Mag">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_KIVAARI_10Rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_RemingtonMSR_5rnd">
+      <nominal>2</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_SCARH_20Rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_M200_Mag">
+      <nominal>2</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_TAC21_Mag">
+      <nominal>2</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Fal_OeBttstckWooden">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_W_G36">
+      <nominal>10</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>6</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Suppressor_65_Creedmore">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Suppressor_65_Creedmore_tan">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Suppressor_65_Creedmore_Green">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_W_M14">
+      <nominal>10</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_50beowolf_20rnd">
+      <nominal>6</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_12_7_55_20rnd">
+      <nominal>5</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_338LapuaMagnum_20rnd">
+      <nominal>5</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_408Cheytac_20rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_556x45AP_20rnd">
+      <nominal>0</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>3</quantmin>
+      <quantmax>5</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_762x39AP_20rnd">
+      <nominal>0</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>1</quantmin>
+      <quantmax>45</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_300aac_ap_20rnd">
+      <nominal>0</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_308winAP_20rnd">
+      <nominal>0</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="AmmoBox_50bmg_20rnd">
+      <nominal>5</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_HoneyBadger_30Rnd">
+      <nominal>15</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>9</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Police" />
+      <usage name="Military" />
+      <value name="Tier4" />
+      <value name="Tier3" />
+      <value name="Tier2" />
+   </type>
+   <type name="PNC_Mag_HoneyBadger_60Rnd">
+      <nominal>8</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_HoneyBadger_Coupled_60Rnd">
+      <nominal>15</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>8</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_Ash127_20rnd">
+      <nominal>5</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>4</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_Beowulf50_20Rnd">
+      <nominal>12</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>6</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_M60_Mag">
+      <nominal>4</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_AX50_2_5Rnd">
+      <nominal>10</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Police" />
+      <value name="Tier4" />
+      <value name="Tier3" />
+   </type>
+   <type name="PNC_Mag_SuperSniper_20Rnd">
+      <nominal>10</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_ORSIST5000_5rnd">
+      <nominal>3</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_AWM_5Rnd">
+      <nominal>5</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>3</min>
+      <quantmin>40</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_CheyTacM300_7Rnd">
+      <nominal>3</nominal>
+      <lifetime>7200</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_AX50_7rnd">
+      <nominal>4</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>2</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_Mag_BarretM82A1_10Rnd">
+      <nominal>3</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="Military" />
+      <usage name="Underground" />
+      <usage name="Special" />
+      <value name="Tier4" />
+      <value name="Tier5" />
+      <value name="Tier6" />
+      <value name="Tier7" />
+   </type>
+   <type name="PNC_W_AN94Abakan">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+   <type name="PNC_W_RemingtonACR_Tan">
+      <nominal>1</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="locked_weapons"/>
+      <usage name="LockedOnly" />
+   </type>
+	
+</types>

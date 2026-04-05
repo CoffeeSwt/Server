@@ -1,0 +1,961 @@
+{
+    "version": 1.0,
+    "DIBunkerGen_MaxItems": 20,
+    "LootList": [
+        {
+            "Name": "BandageDressing",
+            "Quantity": 2,
+            "Chance": 0.5
+        },
+        {
+            "Name": "TetracyclineAntibiotics",
+            "Quantity": 1,
+            "Chance": 0.33
+        },
+        {
+            "Name": "Epinephrine",
+            "Quantity": 1,
+            "Chance": 0.28
+        },
+        {
+            "Name": "Morphine",
+            "Quantity": 1,
+            "Chance": 0.24
+        },
+        {
+            "Name": "CharcoalTablets",
+            "Quantity": 1,
+            "Chance": 0.32
+        },
+        {
+            "Name": "DecontaminationSpray",
+            "Quantity": 1,
+            "Chance": 0.28
+        },
+        {
+            "Name": "SalineBagIV",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "VitaminBottle",
+            "Quantity": 1,
+            "Chance": 0.22
+        },
+        {
+            "Name": "Canteen",
+            "Quantity": 1,
+            "Chance": 0.36
+        },
+        {
+            "Name": "WaterBottle",
+            "Quantity": 1,
+            "Chance": 0.32
+        },
+        {
+            "Name": "TacticalBaconCan",
+            "Quantity": 1,
+            "Chance": 0.26
+        },
+        {
+            "Name": "TunaCan",
+            "Quantity": 1,
+            "Chance": 0.24
+        },
+        {
+            "Name": "SardinesCan",
+            "Quantity": 1,
+            "Chance": 0.22
+        },
+        {
+            "Name": "PeachesCan",
+            "Quantity": 1,
+            "Chance": 0.24
+        },
+        {
+            "Name": "BakedBeansCan",
+            "Quantity": 1,
+            "Chance": 0.24
+        },
+        {
+            "Name": "SpaghettiCan",
+            "Quantity": 1,
+            "Chance": 0.22
+        },
+        {
+            "Name": "BoxCerealCrunchin",
+            "Quantity": 1,
+            "Chance": 0.2
+        },
+        {
+            "Name": "SodaCan_Pipsi",
+            "Quantity": 1,
+            "Chance": 0.24
+        },
+        {
+            "Name": "SodaCan_Spite",
+            "Quantity": 1,
+            "Chance": 0.22
+        },
+        {
+            "Name": "SodaCan_Cola",
+            "Quantity": 1,
+            "Chance": 0.22
+        },
+        {
+            "Name": "Ammo_9x19",
+            "Quantity": 20,
+            "Chance": 0.4
+        },
+        {
+            "Name": "Ammo_45ACP",
+            "Quantity": 20,
+            "Chance": 0.36
+        },
+        {
+            "Name": "Ammo_380",
+            "Quantity": 25,
+            "Chance": 0.3
+        },
+        {
+            "Name": "Ammo_357",
+            "Quantity": 20,
+            "Chance": 0.28
+        },
+        {
+            "Name": "Ammo_556x45",
+            "Quantity": 30,
+            "Chance": 0.4
+        },
+        {
+            "Name": "Ammo_545x39",
+            "Quantity": 30,
+            "Chance": 0.36
+        },
+        {
+            "Name": "Ammo_762x39",
+            "Quantity": 30,
+            "Chance": 0.38
+        },
+        {
+            "Name": "Ammo_308Win",
+            "Quantity": 20,
+            "Chance": 0.34
+        },
+        {
+            "Name": "Ammo_762x54",
+            "Quantity": 20,
+            "Chance": 0.3
+        },
+        {
+            "Name": "Ammo_9x39",
+            "Quantity": 15,
+            "Chance": 0.26
+        },
+        {
+            "Name": "Ammo_12gaPellets",
+            "Quantity": 12,
+            "Chance": 0.36
+        },
+        {
+            "Name": "Ammo_12gaSlug",
+            "Quantity": 12,
+            "Chance": 0.32
+        },
+        {
+            "Name": "Ammo_22",
+            "Quantity": 30,
+            "Chance": 0.22
+        },
+        {
+            "Name": "RGD5Grenade",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "FlashGrenade",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "LandMineTrap",
+            "Quantity": 1,
+            "Chance": 0.09
+        },
+        {
+            "Name": "Plastic_Explosive",
+            "Quantity": 1,
+            "Chance": 0.08
+        },
+        {
+            "Name": "AmmoBox_338LapuaMagnum_20rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "AmmoBox_408Cheytac_20rnd",
+            "Quantity": 1,
+            "Chance": 0.09
+        },
+        {
+            "Name": "AmmoBox_50bmg_20rnd",
+            "Quantity": 1,
+            "Chance": 0.08
+        },
+        {
+            "Name": "AmmoBox_50beowolf_20rnd",
+            "Quantity": 1,
+            "Chance": 0.09
+        },
+        {
+            "Name": "AmmoBox_12_7_55_20rnd",
+            "Quantity": 1,
+            "Chance": 0.07
+        },
+        {
+            "Name": "AmmoBox_556x45AP_20rnd",
+            "Quantity": 1,
+            "Chance": 0.09
+        },
+        {
+            "Name": "AmmoBox_762x39AP_20rnd",
+            "Quantity": 1,
+            "Chance": 0.09
+        },
+        {
+            "Name": "AmmoBox_300aac_ap_20rnd",
+            "Quantity": 1,
+            "Chance": 0.08
+        },
+        {
+            "Name": "PNC_Suppressor_556mm",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_Suppressor_556mm_2",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_Suppressor_338",
+            "Quantity": 1,
+            "Chance": 0.07
+        },
+        {
+            "Name": "PNC_Suppressor_408_Cheytac",
+            "Quantity": 1,
+            "Chance": 0.06
+        },
+        {
+            "Name": "PNC_Aurora_Suppressor",
+            "Quantity": 1,
+            "Chance": 0.05
+        },
+        {
+            "Name": "PNC_Suppressor_65_Creedmore_Green",
+            "Quantity": 1,
+            "Chance": 0.07
+        },
+        {
+            "Name": "PNC_Mag_AWM_5Rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_Mag_DVL_10Rnd",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Mag_ORSIST5000_5rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_Mag_SuperSniper_20Rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_VSSK_Mag",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_MoreMag_M4Drum_100Rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_MoreMag_Fal_50Rnd",
+            "Quantity": 1,
+            "Chance": 0.1
+        },
+        {
+            "Name": "PNC_W_AR15_Long",
+            "Quantity": 1,
+            "Chance": 0.04
+        },
+        {
+            "Name": "PNC_W_AR15_Long_camo",
+            "Quantity": 1,
+            "Chance": 0.036
+        },
+        {
+            "Name": "PNC_W_AR15_Long_kryp",
+            "Quantity": 1,
+            "Chance": 0.036
+        },
+        {
+            "Name": "PNC_W_AR15_Long_hive",
+            "Quantity": 1,
+            "Chance": 0.034
+        },
+        {
+            "Name": "PNC_W_AWM",
+            "Quantity": 1,
+            "Chance": 0.028
+        },
+        {
+            "Name": "PNC_W_AWM_Sand",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "PNC_W_AX50_2",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "PNC_W_AX50_2_camo",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "PNC_W_AX50_2_hive",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PNC_W_M60",
+            "Quantity": 1,
+            "Chance": 0.018
+        },
+        {
+            "Name": "PNC_W_RemingtonMSR",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PNC_W_Tac21",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PNC_W_Ash127",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PNC_W_SCAR",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "PNC_W_AEK971",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "PNC_W_MK14",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PNC_W_DVL10",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "PNC_W_BarretM82A1_Desert",
+            "Quantity": 1,
+            "Chance": 0.016
+        },
+        {
+            "Name": "PNC_W_KIVAARI",
+            "Quantity": 1,
+            "Chance": 0.018
+        },
+        {
+            "Name": "PNC_W_KIVAARI_camo",
+            "Quantity": 1,
+            "Chance": 0.016
+        },
+        {
+            "Name": "PNC_W_KIVAARI_hive",
+            "Quantity": 1,
+            "Chance": 0.016
+        },
+        {
+            "Name": "PNC_W_KIVAARI_kryp",
+            "Quantity": 1,
+            "Chance": 0.016
+        },
+        {
+            "Name": "PNC_W_ORSIST5000",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "PNC_W_Origin_12ga",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "PNC_W_M110",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "PNC_W_G36",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "PlateCarrierVest",
+            "Quantity": 1,
+            "Chance": 0.3
+        },
+        {
+            "Name": "PlateCarrierPouches",
+            "Quantity": 1,
+            "Chance": 0.3
+        },
+        {
+            "Name": "PlateCarrierHolster",
+            "Quantity": 1,
+            "Chance": 0.3
+        },
+        {
+            "Name": "HighCapacityVest",
+            "Quantity": 1,
+            "Chance": 0.3
+        },
+        {
+            "Name": "SmershVest",
+            "Quantity": 1,
+            "Chance": 0.33
+        },
+        {
+            "Name": "SmershBag",
+            "Quantity": 1,
+            "Chance": 0.33
+        },
+        {
+            "Name": "GhillieSuit",
+            "Quantity": 1,
+            "Chance": 0.33
+        },
+        {
+            "Name": "GhillieTop",
+            "Quantity": 1,
+            "Chance": 0.34
+        },
+        {
+            "Name": "GhillieHood",
+            "Quantity": 1,
+            "Chance": 0.34
+        },
+        {
+            "Name": "GhillieBushrag",
+            "Quantity": 1,
+            "Chance": 0.35
+        },
+        {
+            "Name": "Mich2001Helmet",
+            "Quantity": 1,
+            "Chance": 0.34
+        },
+        {
+            "Name": "TacticalGloves",
+            "Quantity": 1,
+            "Chance": 0.36
+        },
+        {
+            "Name": "PlateCarrierVest_ERDL",
+            "Quantity": 1,
+            "Chance": 0.035
+        },
+        {
+            "Name": "PlateCarrierPouches_ERDL",
+            "Quantity": 1,
+            "Chance": 0.035
+        },
+        {
+            "Name": "PlateCarrierHolster_ERDL",
+            "Quantity": 1,
+            "Chance": 0.03
+        },
+        {
+            "Name": "SmershVest_ERDL",
+            "Quantity": 1,
+            "Chance": 0.03
+        },
+        {
+            "Name": "SmershBag_ERDL",
+            "Quantity": 1,
+            "Chance": 0.03
+        },
+        {
+            "Name": "HighCapacityVest_ERDL",
+            "Quantity": 1,
+            "Chance": 0.028
+        },
+        {
+            "Name": "AssaultBag_ERDL",
+            "Quantity": 1,
+            "Chance": 0.035
+        },
+        {
+            "Name": "HuntingBag_ERDL",
+            "Quantity": 1,
+            "Chance": 0.035
+        },
+        {
+            "Name": "MountainBag_ERDL",
+            "Quantity": 1,
+            "Chance": 0.035
+        },
+        {
+            "Name": "TortillaBag_ERDL",
+            "Quantity": 1,
+            "Chance": 0.032
+        },
+        {
+            "Name": "CargoPants_ERDL",
+            "Quantity": 1,
+            "Chance": 0.03
+        },
+        {
+            "Name": "GorkaEJacket_ERDL",
+            "Quantity": 1,
+            "Chance": 0.028
+        },
+        {
+            "Name": "GorkaPants_ERDL",
+            "Quantity": 1,
+            "Chance": 0.028
+        },
+        {
+            "Name": "Mich2001Helmet_ERDL",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "GorkaHelmet_ERDL",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "BalaclavaMask_ERDL",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "Balaclava3Holes_ERDL",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "FaceCover_Improvised_ERDL",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "TacticalGloves_ERDL",
+            "Quantity": 1,
+            "Chance": 0.026
+        },
+        {
+            "Name": "PlateCarrierVest_UK",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PlateCarrierPouches_UK",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "PlateCarrierHolster_UK",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "HighCapacityVest_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "SmershVest_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "SmershBag_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "HuntingBag_UK",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "MountainBag_UK",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "TortillaBag_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "Mich2001Helmet_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "GorkaHelmet_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "BalaclavaMask_UK",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "AntoriaSnowGhillieSuit",
+            "Quantity": 1,
+            "Chance": 0.015
+        },
+        {
+            "Name": "AntoriaSnowGhillieTop",
+            "Quantity": 1,
+            "Chance": 0.018
+        },
+        {
+            "Name": "AntoriaSnowGhillieHood",
+            "Quantity": 1,
+            "Chance": 0.018
+        },
+        {
+            "Name": "AntoriaSnowGhillieBushrag",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "AntoriaSnowGhillieGunWrap",
+            "Quantity": 1,
+            "Chance": 0.018
+        },
+        {
+            "Name": "AntoriaERDLGhillieSuit",
+            "Quantity": 1,
+            "Chance": 0.02
+        },
+        {
+            "Name": "AntoriaERDLGhillieTop",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "AntoriaERDLGhillieHood",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "AntoriaERDLGhillieBushrag",
+            "Quantity": 1,
+            "Chance": 0.024
+        },
+        {
+            "Name": "AntoriaERDLGhillieGunWrap",
+            "Quantity": 1,
+            "Chance": 0.022
+        },
+        {
+            "Name": "ACOGOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "ACOGOptic_6x",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "AK74_WoodBttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "AKS74U_Bttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "AK_FoldingBttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "AK_PlasticBttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "AK_Suppressor",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "BUISOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "HuntingOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "KashtanOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "KazuarOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "KobraOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "M4_CarryHandleOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "M4_Suppressor",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "M4_T3NRDSOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "M68Optic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "PNC_AEK971butt",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_AR15Bttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_AR15Bttstck_2",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_BarretM82A1_Suppressor_desert",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Fal_Compensator",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Fal_Compensator_2",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_KIVAARI_Bttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_KIVAARI_Bttstck_camo",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_KIVAARI_Bttstck_hive",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_KIVAARI_Bttstck_kryp",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_M110Butt",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_M110_Mag",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_M60_Mag",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_ASh127_20Rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_AWM_5rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_AX50_2_5rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_BarretM82A1_10Rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_DVL_10rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_KIVAARI_10Rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Mag_RemingtonMSR_5rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_MoreMag_FAL_20RndCoupledClam",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_MoreMag_FAL_50Rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_MoreMag_M4Drum_60Rnd",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_ORIGIN_Drum_Mag",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_ORIGIN_Mag",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_Origin_Bttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_Origin_sopmodBttstck",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_RPK16_Drum",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PNC_RPK16_butt",
+            "Quantity": 1,
+            "Chance": 0.16
+        },
+        {
+            "Name": "PNC_Suppressor_12ga",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Suppressor_308Win",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Suppressor_65_Creedmore",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_Suppressor_762x39mm_Legion",
+            "Quantity": 1,
+            "Chance": 0.12
+        },
+        {
+            "Name": "PNC_TAC21_Mag",
+            "Quantity": 1,
+            "Chance": 0.14
+        },
+        {
+            "Name": "PSO11Optic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "PSO1Optic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "ReflexOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        },
+        {
+            "Name": "StarlightOptic",
+            "Quantity": 1,
+            "Chance": 0.18
+        }
+    ]
+}

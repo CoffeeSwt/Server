@@ -1,0 +1,253 @@
+<types>
+<type name="AntoriaPaperMap">
+      <nominal>25</nominal>
+      <lifetime>14400</lifetime>
+      <restock>0</restock>
+      <min>20</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="tools" />
+      <tag name="shelves" />
+      <usage name="Village" />
+      <usage name="Hunting" />
+   </type>
+	<!-- Keycard -->	
+    <type name="Antoria_KeyCard">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+    </type>		
+	<!-- Police van wreck Dynamic Event -->
+	<type name="Land_Vaux_Policedvan_1_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	
+	<!-- Snow Mobile Dynamic Event -->
+	<type name="Land_snow_mobile_vlad_1_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<!-- Big Ship wreck Dynamic Event -->
+	<type name="StaticObj_Wreck_Ship_Big_Lifeboat_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_FrontA_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_FrontB_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_BackA_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_BackB_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_Castle_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="StaticObj_Wreck_Ship_Big_Lifeboat_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_FrontA_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_FrontB_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_BackA_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_BackB_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Land_Ship_Big_Castle_Mil_DE">
+		<nominal>0</nominal>
+		<lifetime>2500</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<!-- Crumpets Loot barrel -->	
+   <type name="Crumpet_Barrel_Red_Loot">
+      <nominal>0</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="containers" />
+   </type>
+   <type name="Crumpet_Barrel_Red_Loot_LT">
+      <nominal>0</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="containers" />
+   </type>   
+   <!-- Titan exo suit --> 
+        <type name="TitanSuit">
+		<nominal>1</nominal>
+		<lifetime>388700</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+		<usage name="Underground"/>
+		<value name="Tier6"/>
+	</type>
+      <type name="Titan_Battery">
+		<nominal>0</nominal>
+		<lifetime>388700</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+		<usage name="Underground"/>
+		<value name="Tier7"/>
+   	</type>
+      <type name="Titan_Bag">
+		<nominal>1</nominal>
+		<lifetime>388700</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+		<usage name="Underground"/>
+	</type>
+      <type name="Titan_BatteryCharger">
+		<nominal>1</nominal>
+		<lifetime>388700</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+		<usage name="Underground"/>
+	</type>
+</types>
